@@ -1,0 +1,14 @@
+streamlit
+google-cloud-bigquery
+google-generativeai 
+Pillow 
+requests 
+vertexai 
+json 
+streamlit-option-menu 
+time 
+hashlib 
+google.generativeai 
+Pillow 
+Image 
+vertexai

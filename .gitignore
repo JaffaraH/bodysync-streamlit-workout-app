@@ -1,0 +1,21 @@
+# Ignore config.py
+config.py
+
+# Ignore all JSON files
+*.json
+
+# Ignore unnecessary system files 
+.DS_Store
+Thumbs.db
+
+# Ignore environment variable files 
+.env
+
+# Ignore sensitive files
+config.py
+*.json
+
+# Ignore build and deployment files
+cloudbuild.yaml
+Dockerfile.txt
+
