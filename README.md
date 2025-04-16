@@ -2,7 +2,7 @@
 
 ### Your Personal Fitness and Nutrition Companion
 
-🚀 **Live App:** [BodySync - Try It Here](https://bodysync-ndtgmvl2oa-wl.a.run.app/) *(Limited Time Availability)*  
+🚀 **Live App:** [BodySync - Try It Here](https://bodysync-ndtgmvl2oa-wl.a.run.app/) 
 
 BodySync is a **Streamlit app** designed to help users **track workouts, explore exercise databases, and generate AI-powered meal plans** to support their fitness journey. Whether you're looking to **build strength, improve endurance, or eat healthier**, BodySync has you covered.
 
