@@ -3,12 +3,20 @@
 A free, phone-first workout app built with [Streamlit](https://streamlit.io). Pick a workout or build your own,
 follow it set by set, and see your progress add up. Every tip in the app is backed by a cited study.
 
-<p>
-<img src="docs/screenshots/home.jpg" width="200" alt="Home: this week and the workout in progress">
-<img src="docs/screenshots/workouts.jpg" width="200" alt="Workouts: rows of curated workouts">
-<img src="docs/screenshots/set-screen.jpg" width="200" alt="A set: moving demo, reps, and Done">
-<img src="docs/screenshots/progress.jpg" width="200" alt="Progress: weeks in a row and totals">
-</p>
+<img src="docs/demo.gif" width="300" align="right" alt="Demo: workouts, what each move works, a set with a moving demo, the rest timer, building a playlist, a skill ladder, and progress">
+
+### What makes it different
+
+- **Backed by research.** Every recommendation links to the study it comes from.
+- **Explains the why.** Each move says what it works and how it fits your goal.
+- **Honest goals.** For example, the flat-stomach plan says ab moves alone don't burn belly fat, and pairs strength with walking.
+- **Gets harder with you.** It suggests your next weight and reps from what you did last time.
+- **Yours to build.** Make playlists from 870+ exercises, or add your own with two photos.
+- **Your data stays yours.** With Google sign-in, everything is saved to your own Google account, not to a database we run.
+
+**Built with:** Python, Streamlit, Google sign-in and Google Drive, Gemini (optional), SQLite for local use.
+
+<br clear="right">
 
 ## Features
 
