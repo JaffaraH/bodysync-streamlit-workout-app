@@ -155,3 +155,41 @@ shown.
 | A suggestion seems wrong | `training.suggest` and `tests/test_training.py` |
 | Data didn't save on the hosted copy | `homepage._flush` and `db_drive.py` (the Google token lasts about an hour) |
 | A page opens half-way down | Call `ui.to_top()` when the flow changes step |
+
+## Streamlit features used, and why
+
+| Feature | Used for | Where |
+|---|---|---|
+| `st.navigation` + `st.Page` (hidden) | Multipage app with its own phone tab bar | `homepage.py` |
+| `st.session_state` | Every flow's state (which step, what's picked), plus a per-session data cache | everywhere, `session_data.py` |
+| `st.login` / `st.user` / `st.logout` | "Sign in with Google" without writing OAuth code | `auth.py` |
+| `st.context.headers`, `st.context.theme` | Refusing shared accounts on public addresses; light and dark colours | `auth.py`, `ui.py` |
+| `st.dialog` | Workout details, add exercises, options during a set | `today.py`, `progress.py` |
+| `st.fragment(run_every=1)` | Clocks that tick without rerunning the whole page | `today.py` |
+| `st.container(key=...)` | Stable CSS hooks (`.st-key-...`) for tap rows, tiles and pinned buttons | `ui.py` |
+| `st.html` (JavaScript only for the chime and scroll-to-top) | Custom cards, and animated demos as `<img>` | `ui.py` |
+| `st.pills`, `st.segmented_control`, `st.toggle`, `st.number_input` | Phone-friendly inputs | everywhere |
+| `st.cache_data` | The 870-exercise database, loaded once | `exercise_data.py` |
+| `st.altair_chart` | Progress charts with tooltips | `progress.py` |
+| `st.switch_page`, `st.page_link` | Moving between tabs on purpose | `ui.py`, `lifts.py` |
+| `st.write_stream`, `st.chat_message` | Streaming AI answers | `ui.py`, `chat.py` |
+| `st.download_button` | Export all your workouts as CSV | `progress.py` |
+| `.streamlit/config.toml` | Light and dark themes, the Inter font, and static file serving for demos | `.streamlit/` |
+
+## Lessons learned the hard way
+
+- `st.image` re-encodes animated WebP and keeps only the first frame. Moving demos are drawn as `<img>` with `st.html` (`ui.demo`).
+- An invisible button laid over a card only works if its wrapper is forced to full size with `!important`, because Streamlit sets a fixed width on it inline (`ui.TAP_CSS`).
+- `st.html` sanitises its HTML, so CSS containing angle brackets (`syntax: '<number>'`) gets dropped. Write `\3c number\3e` instead (`today._rest_panel`).
+- A widget's value is forgotten when it isn't drawn. Multi-step flows keep their own copy in `st.session_state` (`playlist_builder._s`).
+- Streamlit keeps the scroll position between reruns, so a new step of a flow asks to start at the top (`ui.to_top`).
+
+## How to add common things
+
+| I want to... | Do this |
+|---|---|
+| Add a curated workout | Add an entry to `curated_workouts.json` (exercise names must exist in the exercise database) and cite its research ids |
+| Add a research-backed tip | Add an entry to `research.json` with a real source; mark it `"verified"` only after you've read the source |
+| Add an exercise the database lacks | Two photos (start, finish) in `static/<source>/<name>/`, and an entry in `extra_exercises.json` with its license and author |
+| Add a skill ladder | A new ladder in `progressions.json` (steps, targets, demos) |
+| Change colours | `.streamlit/config.toml` and the colour tokens in `ui.py` |
