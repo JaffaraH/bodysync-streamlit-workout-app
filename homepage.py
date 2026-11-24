@@ -1,180 +1,156 @@
-#streamlit run /home/huda_jaffara/final-project-superbees/Part\ 6\ Deploy\ App/part_6_deploy/homepage.py --server.enableCORS=false
-# #3498DB ##F0F0F0 #F54946
+# Entry point: `python run.py` (or `streamlit run homepage.py`)
 import streamlit as st
-import hashlib
-import time
-from google.cloud import bigquery
-import json
+
+import auth
+import exercise_data
 import config
-from streamlit_option_menu import option_menu
-from home import home_page
+import db
+import session_data
+import ui
 from account import profile_page
 from chat import chat_page
+from home import home_page
+from lifts import lifts_page
 from nutrition import nutrition_page
+from progress import progress_page
+from skills import skills_page
+from today import today_page
 from workouts import workouts_page
 
-DEFAULT_PAGE = "1_🔐_Login.py"
-project_id = config.PROJECT_ID
+st.set_page_config(page_title="BodySync", page_icon=":material/fitness_center:", layout="centered", initial_sidebar_state="auto")
+ui.inject_css()
 
-def initialize_bigquery_client():
+try:  # only exists in Google/Drive mode
+    from db_drive import DriveAuthError
+except Exception:  # pragma: no cover
+    class DriveAuthError(Exception):
+        pass
+
+
+def _flush():
+    """Upload any changes to the person's Drive once per run (no-op for the local file)."""
+    flush = getattr(db, "flush", None)
+    if not flush:
+        return
     try:
-        return bigquery.Client()
-    except FileNotFoundError:
-        print("Warning: Using less secure Application Default Credentials (ADC).")
-        return bigquery.Client()
-
-def logout():
-    st.session_state.clear()
-
-def create_user(username, password):
-    try:
-        hashed_password = hashlib.sha256(password.encode()).hexdigest()
-        bq_client = initialize_bigquery_client()
-        query = f"""
-        INSERT INTO `{project_id}.bodysyncusers.user_info` (username, password)
-        VALUES ('{username}', '{hashed_password}')
-        """
-        query_job = bq_client.query(query)
-        query_job.result()
-        return True
+        flush()
+    except DriveAuthError:
+        auth.reconnect_notice(st.login)
     except Exception as e:
-        st.error(f"Error registering user: {e}")
-        return False
+        st.toast(f"Couldn't save just now ({type(e).__name__}). We'll try again on your next tap.", icon=":material/warning:")
 
-def verify_user(username, password):
-    try:
-        bq_client = initialize_bigquery_client()
-        query =  f"""
-            SELECT password
-            FROM `{project_id}.bodysyncusers.user_info`
-            WHERE username = @username
-        """
-        query_params = [bigquery.ScalarQueryParameter("username", "STRING", username)]
-        job_config = bigquery.QueryJobConfig(query_parameters=query_params)
-        query_job = bq_client.query(query, job_config=job_config)
-        results = list(query_job.result())
-        if results:
-            stored_password = results[0]['password']
-            hashed_password = hashlib.sha256(password.encode()).hexdigest()
-            if hashed_password == stored_password:
-                return True
-    except Exception as e:
-        st.error(f"Error logging in: {e}")
-    return False
-
-def show_login_signup_forms():
-    # Menu options
-    menu = ["Login", "Sign Up"]
-    choice = st.selectbox("Select one option ▾", menu)
-
-    # Default choice
-    if choice == "":
-        st.subheader("Login")
-
-    # Login option
-    elif choice == "Login":
-        st.write("-------")
-        st.subheader("Log-In")
-        with st.form('Login'):
-            username = st.text_input("Username", placeholder="Enter your username")
-            password = st.text_input("Password", type="password", placeholder="Enter your password")
-            login_button = st.form_submit_button('Login')
-            
-            if login_button:
-                if verify_user(username, password):
-                    st.session_state["username"] = username
-                    st.success("Logged in successfully!")
-                    time.sleep(1)
-                    st.session_state["logged_in"] = True
-                    st.rerun()
-                else:
-                    st.error("Invalid username or password.")
-    
-    # Sign Up option
-    elif choice == "Sign Up":
-        st.write("-----")
-        st.subheader("Create New Account")
-        with st.form('Create New Account'):
-            new_username = st.text_input("Username", placeholder="Enter your username")
-            new_password = st.text_input("Password", type="password", placeholder="Enter your password")
-            confirm_password = st.text_input("Confirm Password", type="password", placeholder="Confirm your password")
-            signup_button = st.form_submit_button('Sign Up')
-            
-            if signup_button:
-                if new_password != confirm_password:
-                    st.error("Passwords do not match. Please try again.")
-                else:
-                    if create_user(new_username, new_password):
-                        st.success("Sign up successful. Please wait while we log you in...")
-                        st.balloons()
-                        time.sleep(3)  # Introduce a delay to allow signup process to complete
-                        if verify_user(new_username, new_password):
-                            st.session_state["username"] = new_username
-                            st.session_state["logged_in"] = True
-                            st.rerun()
-                        else:
-                            st.error("Automatic login failed. Please login manually.")
-                    else:
-                        st.error("Failed to sign up. Please try again.")
 
 def main():
-    logo_path = "https://github.com/alishuhh/body_sync/blob/main/misc/bodysync_logo.png?raw=true"
-    # Center the image horizontally
-    st.markdown(f"""
-    <div style='text-align: center;'>
-        <img src='{logo_path}' width='300'>
-    </div>
-     <p style="text-align: center; color: #F0F0F0; font-family: 'Roboto', sans-serif; font-size: 18px;">
-                Your AI Fitness and Nutrition Companion
-            </p>
-    <hr style="border: 1px solid #F0F0F0;">
-    """, unsafe_allow_html=True)
-        
-    
-    # st.markdown(
-    # """<h1 style=" text-align: center; color: #3498DB; font-family: 'Roboto', sans-serif; font-size: 36px; padding-bottom: 0px; padding-top: 0px">BodySync</h1>
-    # <h3 style="text-align: center; color: #F0F0F0; font-size: 18px;  padding-top: 0; margin-left: 170px; ">Your AI Fitness and Nutrition Companion 🏋️‍♂️</h3>""",
-    # unsafe_allow_html=True
-    # )
+    if st.query_params.get("preview") == "signin":  # lets you see the sign-in page without signing out
+        st.navigation(
+            [st.Page(lambda: auth.landing(lambda: st.query_params.clear()), title="Sign in", url_path="signin")],
+            position="hidden",
+        ).run()
+        return
+    if auth.mode() == "local" and not auth.on_private_network():  # never one shared account on a public address
+        st.navigation([st.Page(auth.setup_needed, title="Set up sign-in", url_path="setup")], position="hidden").run()
+        return
+    if not auth.signed_in():
+        landing = auth.picker if auth.profiles_enabled() else (lambda: auth.landing(st.login))
+        st.navigation([st.Page(landing, title="Sign in", url_path="signin")], position="hidden").run()
+        return
 
-    if st.session_state.get("logged_in"):
-        with st.sidebar:
-            username = st.session_state.get("username")
-            st.markdown(
-            f"""
-            <h1 style="text-align: center; color: #B044E1; font-family: 'Roboto', sans-serif; font-size: 36px; padding-bottom: 0px; padding-top: 0px;">
-                Welcome 🏋️‍♂️{username}
-            </h1>
-            <hr style="border: 1px solid #F0F0F0;">
-            """,
-            unsafe_allow_html=True
-            )
+    username, display = auth.identity()
+    st.session_state.update(username=username, display=display, logged_in=True)
+    exercise_data.set_custom(session_data.settings(username).get("custom_exercises"))  # your own exercises
+    if "sess" not in st.session_state and not st.session_state.get("_live_checked"):
+        st.session_state["_live_checked"] = True  # once per visit: bring back a workout left unfinished
+        live = session_data.load_live(username)
+        if live:
+            st.session_state["sess"] = live
+    pages = {}
 
-            menu = option_menu("", ["🏠 Home", "👤 Profile", "💪 Workouts", "🥗 Nutrition", "💬 FitBuddy AI"])
+    def home():
+        home_page(username, pages)
 
-            if st.button("🚪 Logout"):
-                logout()
-                st.sidebar.success("Logged out successfully!")
+    def workout():
+        today_page(username, pages)
+
+    def my_lifts():
+        lifts_page(username, pages)
+
+    def skills():
+        skills_page(username, pages)
+
+    def progress():
+        progress_page(username, pages)
+
+    def profile():
+        profile_page(username, pages)
+
+    def library():
+        workouts_page(username, pages)
+
+    def nutrition():
+        nutrition_page(username, pages)
+
+    def fitbuddy():
+        chat_page(username, pages)
+
+    pages.update(
+        home=st.Page(home, title="Home", icon=":material/home:", url_path="home", default=True),
+        workout=st.Page(workout, title="Workouts", icon=":material/fitness_center:", url_path="workout"),
+        lifts=st.Page(my_lifts, title="Library", icon=":material/bookmarks:", url_path="lifts"),
+        skills=st.Page(skills, title="Skills", icon=":material/trending_up:", url_path="skills"),
+        progress=st.Page(progress, title="Progress", icon=":material/bar_chart:", url_path="progress"),
+        workouts=st.Page(library, title="Exercise library", icon=":material/menu_book:", url_path="workouts"),
+        nutrition=st.Page(nutrition, title="Nutrition", icon=":material/restaurant:", url_path="nutrition"),
+        fitbuddy=st.Page(fitbuddy, title="FitBuddy AI", icon=":material/smart_toy:", url_path="fitbuddy"),
+        profile=st.Page(profile, title="Profile", icon=":material/person:", url_path="profile"),
+    )
+    nav = st.navigation(list(pages.values()), position="hidden")  # we draw the menu ourselves (logo first)
+    goto = st.session_state.pop("_goto", None)  # a page change asked for by a button, possibly inside a pop-up
+    if goto in pages:
+        st.switch_page(pages[goto])
+
+    with st.sidebar:
+        ui.logo_button(pages["home"])
+        st.page_link(pages["home"])
+        ui.nav_heading("Train")
+        for key in ("workout", "lifts", "skills", "progress"):
+            st.page_link(pages[key])
+        ui.nav_heading("Explore")
+        for key in ("workouts", "nutrition", "fitbuddy"):
+            st.page_link(pages[key])
+        ui.nav_heading("You")
+        st.page_link(pages["profile"])
+        st.divider()
+        if auth.mode() == "google":
+            st.caption(f"Signed in as **{username}**")
+            if st.button("Sign out", icon=":material/logout:", type="tertiary"):
+                session_data.clear()
+                st.session_state.clear()
+                st.logout()
+        elif auth.profiles_enabled():
+            st.caption(f"Signed in as **{username}** (saved on this device)")
+            if st.button("Sign out", icon=":material/logout:", type="tertiary", key="local_signout"):
+                session_data.clear()
+                st.session_state.clear()
                 st.rerun()
+        else:
+            st.caption("Saved on this device")
+
+    st.session_state["_focus_mode"] = False  # pages that need the whole screen (onboarding, a live workout) set this
+    here_now = nav.url_path
+    st.session_state["_arrived"] = st.session_state.get("_here") != here_now  # opened from another page this run
+    st.session_state["_here"] = here_now
+    try:
+        nav.run()
+    except DriveAuthError:
+        auth.reconnect_notice(st.login)
+        return
+    ui.play_pending(session_data.settings(username).get("sound", True))
+    if not st.session_state.get("_focus_mode"):
+        here = next((k for k, pg in pages.items() if pg.url_path == nav.url_path), None)
+        here = "profile" if here in ("progress", "workouts", "nutrition", "fitbuddy") else here  # opened from You
+        ui.tab_bar(pages, here)
+        ui.continue_bar(pages, here)
+    _flush()
 
 
-        if menu == "🏠 Home":
-            home_page(st.session_state.get("username"), None)
-        elif menu == "👤 Profile":
-            profile_page(st.session_state.get("username"), None)
-        elif menu == "💪 Workouts":
-            workouts_page(st.session_state.get("username"), None)
-        elif menu == "🥗 Nutrition":
-            nutrition_page(st.session_state.get("username"), None)
-        elif menu == "💬 FitBuddy AI":
-            chat_page(st.session_state.get("username"), None)
-        
-        
-
-        st.sidebar.write("")  # Add space between navigation and logout button
-    
-    else:
-        show_login_signup_forms()
-
-if __name__ == "__main__":
-    main()
+main()

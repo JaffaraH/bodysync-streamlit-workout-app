@@ -1,0 +1,54 @@
+[server]
+showEmailPrompt = false
+maxUploadSize = 10           # MB; your own pictures are resized to about 50 KB before saving
+enableStaticServing = true   # serves ./static (logo, photos, exercise images) so the browser caches them
+fileWatcherType = "none"     # lighter on CPU; restart to pick up code edits (remove this line while developing)
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"      # hides the developer-only Deploy button
+
+# Light and dark are both defined: the app follows the device's setting (people can also switch in the menu).
+# One palette: purple (main), pink and blue (accents), on near-black or soft lavender.
+[theme]
+baseRadius = "large"
+# Inter: a clean UI typeface, small files from a public CDN; falls back to the system font if offline.
+font = "Inter, sans-serif"
+
+[theme.dark]
+primaryColor = "#A855F7"
+backgroundColor = "#0A0A14"
+secondaryBackgroundColor = "#13132B"
+textColor = "#EDEBFF"
+borderColor = "#2B2757"
+linkColor = "#7DB4FF"
+
+[theme.light]
+primaryColor = "#7C3AED"
+backgroundColor = "#F6F3FF"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#1B1740"
+borderColor = "#DDD6FE"
+linkColor = "#2563EB"
+
+[[theme.fontFaces]]
+family = "Inter"
+url = "https://cdn.jsdelivr.net/fontsource/fonts/inter@5.2.8/latin-400-normal.woff2"
+weight = 400
+
+[[theme.fontFaces]]
+family = "Inter"
+url = "https://cdn.jsdelivr.net/fontsource/fonts/inter@5.2.8/latin-500-normal.woff2"
+weight = 500
+
+[[theme.fontFaces]]
+family = "Inter"
+url = "https://cdn.jsdelivr.net/fontsource/fonts/inter@5.2.8/latin-600-normal.woff2"
+weight = 600
+
+[[theme.fontFaces]]
+family = "Inter"
+url = "https://cdn.jsdelivr.net/fontsource/fonts/inter@5.2.8/latin-700-normal.woff2"
+weight = 700

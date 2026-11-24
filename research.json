@@ -1,0 +1,404 @@
+{
+  "_about": "Every recommendation BodySync makes should point to an entry here. 'status' says how well it is backed: verified (primary source read in a search), secondary (reported by an article), unverified (no source found yet; do not present as fact).",
+  "entries": [
+    {
+      "id": "rest-hypertrophy",
+      "claim": "Resting longer than about 60 seconds between sets gave a small muscle-growth benefit, and no clear difference showed beyond 90 seconds.",
+      "evidence": "systematic review with Bayesian meta-analysis (2024)",
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11349676/",
+      "used_in": [
+        "rest timer: 90 s for lighter weighted lifts, 60 s for bodyweight"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "rest-strength",
+      "claim": "Resting 3 to 5 minutes between sets produced greater absolute strength gains than 1 minute.",
+      "evidence": "review of rest intervals in strength training (2009)",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/19691365/",
+      "used_in": [
+        "rest timer: 2.5 minutes for heavy barbell compound lifts"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "weekly-not-daily",
+      "claim": "Missing one day often leads people to quit; streaks that reset daily can cause anxiety. Weekly goals, grace and lifetime totals are suggested alternatives.",
+      "evidence": "design articles citing habit research (Lally); not a fitness-specific study",
+      "source": "https://mobbin.com/blog/streaks-are-about-losing-a-study-of-859-streak-designs",
+      "used_in": [
+        "Home flames count the current week; lifetime totals never reset; welcome-back messages"
+      ],
+      "status": "secondary"
+    },
+    {
+      "id": "core-stability-limits",
+      "claim": "Core stabilisation exercises were no more effective than other active exercise for long-term back pain.",
+      "evidence": "systematic review with meta-analysis, 29 trials (BMC Musculoskeletal Disorders, 2014)",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/25488399/",
+      "used_in": [
+        "wording of core and abs routines"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "progression-top-of-range",
+      "claim": "Add 2-10% load once you can do 1-2 reps over your target on two sessions in a row (smaller increases for small-muscle exercises).",
+      "evidence": "ACSM position stand, Progression Models in Resistance Training for Healthy Adults (2009); evidence category B",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/19204579/",
+      "used_in": [
+        "Add weight suggestions on the session screen: two sessions at the top of the range (or one that felt easy)",
+        "weight jump: the usual step, or half of it for light weights so it stays near 10%"
+      ],
+      "status": "verified",
+      "action": "When you beat your rep target by 1 or 2 reps two sessions in a row, add a little weight. BodySync suggests it for you."
+    },
+    {
+      "id": "rest-day-movement",
+      "claim": "Gentle movement on a rest day counts as rest.",
+      "evidence": "no source found; this is a low-risk suggestion, not a recovery claim",
+      "source": "",
+      "used_in": [
+        "Home rest-day block"
+      ],
+      "status": "unverified"
+    },
+    {
+      "id": "stretch-hold",
+      "claim": "For flexibility, ACSM suggests holding each static stretch about 10 to 30 seconds (30 to 60 seconds may help older adults more), on at least 2 to 3 days a week; daily works best.",
+      "evidence": "ACSM stretching and flexibility guidelines update (2021)",
+      "source": "https://www.acsm.org/blog-detail/acsm-certified-blog/2021/03/18/stretching-and-flexibility-guidelines-update",
+      "used_in": [
+        "flexibility skill drills and holds (splits, touch your toes)"
+      ],
+      "status": "verified",
+      "action": "Hold each stretch 10 to 30 seconds (30 to 60 if you're older), on at least 2 or 3 days a week."
+    },
+    {
+      "id": "stretch-weekly",
+      "claim": "Total stretching time per week mattered more than time per session; range of motion improved when stretching added up to at least about 5 minutes a week per muscle group.",
+      "evidence": "systematic review and meta-analysis (2018)",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/29506306/",
+      "used_in": [
+        "flexibility skills: practise several times a week"
+      ],
+      "status": "verified",
+      "action": "Give each area at least 5 minutes of stretching a week in total, for example 2 holds of 30 seconds on 5 days."
+    },
+    {
+      "id": "novice-total-body",
+      "claim": "For people new to lifting, ACSM's position stand suggests total-body sessions 2 to 3 days a week.",
+      "evidence": "ACSM position stand, Progression Models in Resistance Training for Healthy Adults (2009): novices train the entire body 2-3 days a week (primary text read)",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/19204579/",
+      "used_in": [
+        "curated full-body workouts for beginners",
+        "Home: repeat the starter or last curated workout 2-3 times a week",
+        "Plan my week: the suggested week is whole-body sessions on the goal days, a day apart"
+      ],
+      "status": "verified",
+      "action": "Do 2 or 3 full-body sessions a week, with a day off between them."
+    },
+    {
+      "id": "frequency-2x",
+      "claim": "Training each muscle about twice a week gave more muscle growth than once a week in a meta-analysis; when total weekly sets were equal the difference was small, so total sets matter most.",
+      "evidence": "systematic review and meta-analysis (2016), with later volume-equated analyses",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/27102172/",
+      "used_in": [
+        "curated upper/lower and full-body workouts: repeat each about twice a week",
+        "Plan my week: with 4+ days and 3+ tracked lifts, upper and lower alternate so each is trained twice"
+      ],
+      "status": "verified",
+      "action": "Train each muscle on 2 days a week, splitting the same total sets across them."
+    },
+    {
+      "id": "reps-or-load",
+      "claim": "Adding reps at the same weight and adding weight at the same reps gave similar muscle and strength gains over 8 weeks.",
+      "evidence": "randomised trial, 43 trained adults, 8 weeks (Plotkin et al., PeerJ 2022)",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/36199287/",
+      "used_in": [
+        "'Same weight, aim for one more rep' suggestions",
+        "bodyweight lifts progress by reps, then a harder version"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "weight-loss-activity",
+      "claim": "150 to 250 minutes a week of moderate activity mainly prevents weight gain and gives modest loss; more than 250 minutes a week is linked to clinically significant loss, and activity works best alongside a moderate diet.",
+      "evidence": "ACSM position stand, Appropriate physical activity intervention strategies for weight loss (Donnelly et al. 2009); abstract read",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/19127177/",
+      "used_in": [
+        "Plan my week, goal Lose weight: walks on the non-strength days, with the minutes explained"
+      ],
+      "status": "verified",
+      "action": "Build up to more than 250 minutes of walking a week (about 35 minutes a day), alongside eating a little less."
+    },
+    {
+      "id": "strength-keeps-muscle",
+      "claim": "Adding resistance or aerobic exercise to a calorie deficit helps lose fat while keeping lean mass.",
+      "evidence": "network meta-analysis of 62 randomised trials, 4,429 people (Frontiers in Nutrition 2025)",
+      "source": "https://www.frontiersin.org/articles/10.3389/fnut.2025.1579024/full",
+      "used_in": [
+        "Plan my week, goal Lose weight: strength training stays in the week"
+      ],
+      "status": "verified",
+      "action": "Keep at least 2 strength days a week while you lose weight, so what you lose is fat, not muscle."
+    },
+    {
+      "id": "who-activity",
+      "claim": "Adults should do 150 to 300 minutes of moderate aerobic activity a week (or 75 to 150 vigorous), plus muscle-strengthening activity.",
+      "evidence": "WHO 2020 guidelines on physical activity and sedentary behaviour (executive summary)",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/7719906/",
+      "used_in": [
+        "Plan my week, goal Stay healthy: two strength days plus walks"
+      ],
+      "status": "verified",
+      "action": "Walk briskly 30 minutes on 5 days (150 minutes) and do strength work on 2 days."
+    },
+    {
+      "id": "incline-walk-12330",
+      "claim": "In one small lab study (16 people, a single session), the 12-3-30 incline walk burned calories more slowly than running but used a higher share of fat. It has not been tested for weight loss.",
+      "evidence": "exploratory study, International Journal of Exercise Science 2025",
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11798546/",
+      "used_in": [
+        "walk option 'Incline walk (12-3-30)', shown with this caveat"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "volume-hypertrophy",
+      "claim": "More weekly sets per muscle gave more muscle growth, with diminishing returns at higher volumes.",
+      "evidence": "meta-regression, 15 studies (Schoenfeld, Ogborn and Krieger 2017)",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/27433992/",
+      "used_in": [
+        "Plan my week, goal Build muscle: more training days when you have them, each muscle twice a week"
+      ],
+      "status": "verified",
+      "action": "Work up to about 10 hard sets per muscle each week, for example 3 to 4 sets for that muscle on each of 2 or 3 days."
+    },
+    {
+      "id": "eccentric-strength",
+      "claim": "Training only the lowering phase and training only the lifting phase gave similar gains in lifting strength, and lowering-only training built more lowering strength. The studies used lab machines, not push-ups or pull-ups.",
+      "evidence": "systematic review and meta-analysis of eccentric-only vs concentric-only training (2025)",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12370621/",
+      "used_in": [
+        "skill steps: slow-lowering versions count as another way to clear a step"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "knee-vs-toe",
+      "claim": "Knee and toe push-ups worked the same muscles in similar proportions; toe push-ups worked them harder overall.",
+      "evidence": "EMG study of 12 men (Journal of Applied Biomechanics), as reported by Les Mills",
+      "source": "https://www.lesmills.com/articles/push-up-science-ohgi3",
+      "used_in": [
+        "push-up ladder: easier variations count as ways to clear a step"
+      ],
+      "status": "secondary"
+    },
+    {
+      "id": "warmup-stretch",
+      "claim": "Short static stretches (60 seconds or less per muscle) had only a trivial effect on strength and power, while longer holds caused clear drops. Moving (dynamic) warm-ups are preferred right before training.",
+      "evidence": "review of acute static stretching effects (Chaabene, Behm and colleagues, 2019)",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6895680/",
+      "used_in": [
+        "warm-up: moving exercises, no long holds, before strength work"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "specific-warmup",
+      "claim": "A warm-up with lighter sets of the same exercise helped maximal strength and reps in several studies, though results were mixed.",
+      "evidence": "systematic review of 11 studies (Ribeiro et al., Motricidade 2021)",
+      "source": "https://revistas.rcaap.pt/motricidade/article/view/21143",
+      "used_in": [
+        "warm-up tip: one or two light sets of your first lift"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "cooldown",
+      "claim": "An active cool-down did little for soreness or next-day performance in most studies; it may help heart rate and breathing settle sooner.",
+      "evidence": "narrative review (Van Hooren and Peake, Sports Medicine 2018)",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5999142/",
+      "used_in": [
+        "cool-down: optional, described honestly; its stretching time counts toward flexibility"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "no-spot-reduction",
+      "claim": "Six weeks of ab exercises alone (7 moves, 5 days a week) did not reduce belly fat or waist size, though ab endurance improved.",
+      "evidence": "randomized controlled trial, 24 adults (2011); a 2015 trial in women dieting found the same",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/21804427/",
+      "used_in": [
+        "Flat stomach program: walking + strength, core for strength not fat loss"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "steps-mortality",
+      "claim": "More daily steps meant lower risk of early death, leveling off around 6,000-8,000 steps a day for adults 60 and over and 8,000-10,000 for younger adults.",
+      "evidence": "meta-analysis of 15 cohorts, 47,471 adults (Lancet Public Health, 2022)",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/35247352/",
+      "used_in": [
+        "daily step goal in the weight-loss and walking programs"
+      ],
+      "status": "verified",
+      "action": "Build toward 8,000 to 10,000 steps a day (6,000 to 8,000 if you're 60 or over)."
+    },
+    {
+      "id": "protein-1-6",
+      "claim": "Protein helped strength training build muscle, with no further gain in muscle above about 1.6 g per kg of body weight a day.",
+      "evidence": "systematic review and meta-regression, 49 trials, 1,863 people (Br J Sports Med, 2018)",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/28698222/",
+      "used_in": [
+        "Nutrition: daily protein target"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "protein-per-meal",
+      "claim": "Aim for about 0.4 g of protein per kg of body weight per meal, over at least 4 meals, to reach 1.6 g per kg a day.",
+      "evidence": "narrative review (J Int Soc Sports Nutr, 2018)",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/29497353/",
+      "used_in": [
+        "Nutrition: protein per meal"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "habit-consistency",
+      "claim": "New habits took 66 days on average to become automatic (18 to 254), and missing one day did not undo progress; only very irregular people failed to build the habit.",
+      "evidence": "real-world habit study, 96 people (Eur J Soc Psychol, 2010)",
+      "source": "https://www.ucl.ac.uk/epidemiology-health-care/research/behavioural-science-health/research/healthy-habits/science-of-habits",
+      "used_in": [
+        "programs: show up 3 days a week, any days"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "knee-exercise",
+      "claim": "Exercise therapy reduced knee pain and improved function for people with knee osteoarthritis.",
+      "evidence": "Cochrane review, 44 trials (2015; updated 2024)",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/26405113/",
+      "used_in": [
+        "Strong knees program"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "pilates-back",
+      "claim": "Pilates probably eased chronic low back pain more than minimal care, but not more than other exercise.",
+      "evidence": "Cochrane review, 10 trials, low to moderate quality (2015)",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/26133923/",
+      "used_in": [
+        "Pilates-style mat core"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "spot-reduction-meta",
+      "claim": "Training one body part did not reduce the fat over it: a meta-analysis of 13 studies (1,158 people aged 14 to 71) found no spot reduction (pooled effect -0.03, 95% CI -0.10 to 0.05).",
+      "evidence": "systematic review with meta-analysis, 13 controlled studies (Ramirez-Campillo, Human Movement, 2021)",
+      "source": "https://doi.org/10.5114/hm.2022.110373",
+      "action": "To lose fat in one place, lose fat overall: move more each day and eat a little less. Training the area builds the muscle underneath.",
+      "used_in": [
+        "For your goal notes (abs, arms, glutes)"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "core-emg-review",
+      "claim": "In a review of 67 EMG studies (1,247 adults), free-weight lifts such as squats and deadlifts drew the most activity from the six-pack muscle, the outer obliques and the lower back; core-stability moves such as planks drew the most from the inner obliques. The deepest layer (transverse abdominis) has been little studied.",
+      "evidence": "systematic review of electromyography studies (Oliva-Lozano and Muyor, IJERPH, 2020); measures muscle activity, not growth",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7345922/",
+      "action": "Keep squats, lunges and deadlifts in your week: they work your core too, alongside planks and dead bugs.",
+      "used_in": [
+        "For your goal notes (abs, core)",
+        "move_targets.json: plank, side bridge, squats"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "load-spectrum",
+      "claim": "Light and heavy weights grew muscle by a similar amount when sets were taken close to failure; heavy weights gave more gain in maximal strength.",
+      "evidence": "systematic review and meta-analysis, 21 studies of at least 6 weeks (Schoenfeld, J Strength Cond Res, 2017)",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/28834797/",
+      "action": "For firmer, more defined muscle, any weight works if the last 2 or 3 reps of each set are hard. For the most strength, go heavier.",
+      "used_in": [
+        "For your goal notes (arms, glutes, muscle, strength)"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "triceps-overhead",
+      "claim": "Overhead cable triceps extensions grew the triceps about 1.4 times more than arms-down extensions over 12 weeks (whole triceps +19.9% vs +13.9%), even with lighter loads.",
+      "evidence": "within-person trial, 21 untrained adults, MRI (Maeo, Eur J Sport Sci, 2023); cable only",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/35819335/",
+      "action": "Include one triceps move with your arms overhead, such as the seated triceps press.",
+      "used_in": [
+        "move_targets.json: Seated Triceps Press",
+        "For your goal note (arms)"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "glutes-thrust-squat",
+      "claim": "Hip thrusts and back squats grew the glutes by a similar amount over 9 weeks; squats also grew the thighs more. The hip thrust's higher muscle activity did not predict more glute growth.",
+      "evidence": "randomized trial, 34 untrained adults, MRI (Plotkin, Frontiers in Physiology, 2023)",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/37877099/",
+      "action": "Bridges, hip thrusts, squats and lunges all build glutes. Pick the ones you enjoy and add weight or reps over time.",
+      "used_in": [
+        "For your goal note (glutes)",
+        "move_targets.json: hip thrust, bridges"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "strength-rom",
+      "claim": "Strength training through a full range of motion improved flexibility as much as stretching, in 11 trials (452 people); the studies differed a lot in design.",
+      "evidence": "systematic review and meta-analysis of supervised randomized trials (Afonso, Healthcare, 2021)",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/33917036/",
+      "action": "Lift through the full, comfortable range (deep squats, long lunges, full Romanian deadlifts): it counts toward flexibility too.",
+      "used_in": [
+        "For your goal note (hips)"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "strength-early",
+      "claim": "Early strength gains come largely from the nervous system learning the move, while muscle growth also starts from the beginning of training.",
+      "evidence": "narrative review (Folland and Williams, Sports Medicine, 2007)",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/17241104/",
+      "action": "Expect to get stronger in the first weeks, before you see any change.",
+      "used_in": [
+        "For your goal notes: when to expect change",
+        "Feeling stuck? on Progress"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "size-timeline",
+      "claim": "Muscle size was measurable on scans after 3 weeks of hard training (thigh +3.5 to 5.2%) and +6.5 to 7.4% after 5 weeks: real changes, but small.",
+      "evidence": "training study, 7 young adults, flywheel leg extensions (Seynnes, J Appl Physiol, 2007)",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/17053104/",
+      "action": "Give a plan 9 to 12 weeks before judging it in the mirror; the growth studies BodySync uses ran that long.",
+      "used_in": [
+        "For your goal notes: when to expect change",
+        "Feeling stuck? on Progress"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "sleep-strength",
+      "claim": "Several nights of short sleep in a row reduced strength on multi-joint lifts such as squats, but not on single-joint moves; one night without sleep had little effect.",
+      "evidence": "systematic review, 17 studies rated moderate or weak quality (Knowles, J Sci Med Sport, 2018)",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/29422383/",
+      "action": "If your big lifts have stalled, look at your last few nights: several short nights in a row lowered strength on lifts like squats.",
+      "used_in": [
+        "Feeling stuck? on Progress"
+      ],
+      "status": "verified"
+    }
+  ]
+}

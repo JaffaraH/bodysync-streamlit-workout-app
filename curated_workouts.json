@@ -1,0 +1,1583 @@
+{
+ "_about": "Curated workouts. Each one is built from published guidance (research ids) using exercises in the Free Exercise DB. The exact routine has not itself been tested in a study; the app says so. An exercise may end with \"hold\": its numbers are seconds, not reps. 'for_goal' names the goal note in move_targets.json; 'goal_tip' adds a note just for that workout.",
+ "workouts": [
+  {
+   "id": "flat-stomach",
+   "title": "Flat stomach, the honest way",
+   "focus": "full",
+   "tag": "results",
+   "place": "home",
+   "level": "Beginner",
+   "equipment": "None",
+   "cover": "Mountain Climbers",
+   "blurb": "Full-body strength with a short core finish. Pair it with a daily walk.",
+   "goal": "Lose fat around your middle",
+   "schedule": "Any 3 days a week, for 12 weeks",
+   "also": "Walk 8,000 to 10,000 steps a day, every day",
+   "expect": "Ab moves make your core strong, but they don't burn belly fat on their own. Fat loss comes from moving more every day and eating a bit less; strength work keeps your muscle while you lose it.",
+   "research": [
+    "no-spot-reduction",
+    "weight-loss-activity",
+    "strength-keeps-muscle",
+    "steps-mortality",
+    "habit-consistency"
+   ],
+   "exercises": [
+    [
+     "Bodyweight Squat",
+     3,
+     10,
+     15
+    ],
+    [
+     "Pushups",
+     3,
+     6,
+     12
+    ],
+    [
+     "Butt Lift (Bridge)",
+     3,
+     12,
+     15
+    ],
+    [
+     "Bodyweight Walking Lunge",
+     2,
+     8,
+     12
+    ],
+    [
+     "Mountain Climbers",
+     2,
+     20,
+     30
+    ],
+    [
+     "Dead Bug",
+     2,
+     8,
+     12
+    ],
+    [
+     "Plank",
+     3,
+     30,
+     45,
+     "hold"
+    ]
+   ],
+   "for_goal": "abs"
+  },
+  {
+   "id": "strong-knees",
+   "title": "Strong knees",
+   "focus": "lower",
+   "tag": "results",
+   "place": "home",
+   "level": "Beginner",
+   "equipment": "None",
+   "cover": "Step-up with Knee Raise",
+   "blurb": "Thigh, hip and calf strength that supports the knee. Squat only as deep as feels okay.",
+   "goal": "Knees that hurt less and work better",
+   "schedule": "Any 3 days a week, for 8 weeks",
+   "also": "A short walk on the other days",
+   "expect": "Mild aching is common at first. Sharp pain, swelling or pain that gets worse each week means stop and check with a physio or doctor.",
+   "research": [
+    "knee-exercise",
+    "frequency-2x",
+    "habit-consistency"
+   ],
+   "exercises": [
+    [
+     "Bodyweight Squat",
+     3,
+     8,
+     12
+    ],
+    [
+     "Step-up with Knee Raise",
+     3,
+     8,
+     12
+    ],
+    [
+     "Butt Lift (Bridge)",
+     3,
+     12,
+     15
+    ],
+    [
+     "Single Leg Glute Bridge",
+     2,
+     8,
+     12
+    ],
+    [
+     "Standing Calf Raises",
+     3,
+     12,
+     15
+    ]
+   ],
+   "for_goal": "knees"
+  },
+  {
+   "id": "pistol-builder",
+   "title": "Your first pistol squat",
+   "focus": "lower",
+   "tag": "results",
+   "place": "home",
+   "level": "Intermediate",
+   "equipment": "None",
+   "cover": "Bodyweight Walking Lunge",
+   "blurb": "Single-leg strength for the pistol. Practice the Pistol squat steps in Skills alongside it.",
+   "goal": "A full pistol squat on each leg",
+   "schedule": "Any 3 days a week, until you clear the last step",
+   "skill": "pistol",
+   "expect": "Most people need several weeks to months. You move up a step when you hit its target in a row of practices.",
+   "research": [
+    "frequency-2x",
+    "progression-top-of-range",
+    "habit-consistency"
+   ],
+   "exercises": [
+    [
+     "Bodyweight Squat",
+     3,
+     10,
+     15
+    ],
+    [
+     "Bodyweight Walking Lunge",
+     3,
+     8,
+     12
+    ],
+    [
+     "Step-up with Knee Raise",
+     3,
+     8,
+     10
+    ],
+    [
+     "Single Leg Glute Bridge",
+     3,
+     10,
+     12
+    ]
+   ],
+   "for_goal": "skill"
+  },
+  {
+   "id": "handstand-builder",
+   "title": "Your first handstand",
+   "focus": "upper",
+   "tag": "results",
+   "place": "home",
+   "level": "Intermediate",
+   "equipment": "None",
+   "cover": "Pike Push-Up",
+   "blurb": "Shoulder and core strength for holding your weight upside down. Practice the Handstand steps in Skills alongside it.",
+   "goal": "A handstand against the wall, then freestanding",
+   "schedule": "Any 3 days a week, until you clear the last step",
+   "skill": "handstand",
+   "expect": "Wall holds usually come first; balancing freestanding takes much longer. Warm up your wrists every time.",
+   "research": [
+    "frequency-2x",
+    "progression-top-of-range",
+    "habit-consistency"
+   ],
+   "exercises": [
+    [
+     "Pike Push-Up",
+     3,
+     5,
+     10
+    ],
+    [
+     "Pushups",
+     3,
+     6,
+     12
+    ],
+    [
+     "Push Up to Side Plank",
+     2,
+     6,
+     10
+    ],
+    [
+     "Plank",
+     3,
+     30,
+     45,
+     "hold"
+    ]
+   ],
+   "for_goal": "skill"
+  },
+  {
+   "id": "pilates-mat",
+   "title": "Core strength, Pilates-inspired",
+   "focus": "core",
+   "tag": "results",
+   "place": "home",
+   "level": "Beginner",
+   "equipment": "None",
+   "cover": "Dead Bug",
+   "blurb": "Front, sides and back of your core, with slow, controlled mat moves. Breathe out as you move.",
+   "goal": "A stronger core and an easier back",
+   "schedule": "Any 2 to 3 days a week, for 8 weeks",
+   "also": "Works well on rest days from lifting",
+   "expect": "Mostly core strength moves, some from Pilates mat work, each with a demo. It isn't a full Pilates class.",
+   "research": [
+    "pilates-back",
+    "core-stability-limits",
+    "habit-consistency"
+   ],
+   "exercises": [
+    [
+     "Dead Bug",
+     3,
+     8,
+     10
+    ],
+    [
+     "Plank",
+     3,
+     30,
+     45,
+     "hold"
+    ],
+    [
+     "Side Bridge",
+     2,
+     20,
+     30,
+     "hold"
+    ],
+    [
+     "Reverse Crunch",
+     3,
+     10,
+     12
+    ],
+    [
+     "Pelvic Tilt Into Bridge",
+     2,
+     10,
+     12
+    ],
+    [
+     "Superman",
+     2,
+     8,
+     10
+    ],
+    [
+     "Cross-Body Crunch",
+     2,
+     10,
+     12
+    ]
+   ],
+   "for_goal": "core"
+  },
+  {
+   "id": "full-beginner",
+   "title": "Full body for beginners",
+   "focus": "full",
+   "level": "Beginner",
+   "equipment": "Dumbbells",
+   "blurb": "Five moves that cover legs, push and pull. Do it 2 to 3 days a week.",
+   "research": [
+    "novice-total-body",
+    "frequency-2x"
+   ],
+   "exercises": [
+    [
+     "Goblet Squat",
+     3,
+     8,
+     12
+    ],
+    [
+     "Dumbbell Bench Press",
+     3,
+     8,
+     12
+    ],
+    [
+     "One-Arm Dumbbell Row",
+     3,
+     8,
+     12
+    ],
+    [
+     "Dumbbell Lunges",
+     2,
+     8,
+     12
+    ],
+    [
+     "Dumbbell Shoulder Press",
+     2,
+     8,
+     12
+    ]
+   ],
+   "cover": "Goblet Squat",
+   "place": "home",
+   "for_goal": "strength"
+  },
+  {
+   "id": "full-bodyweight",
+   "title": "Full body, no equipment",
+   "focus": "full",
+   "level": "Beginner",
+   "equipment": "None",
+   "blurb": "Train at home with just the floor and a sturdy table.",
+   "research": [
+    "novice-total-body",
+    "frequency-2x"
+   ],
+   "exercises": [
+    [
+     "Bodyweight Squat",
+     3,
+     10,
+     15
+    ],
+    [
+     "Pushups",
+     3,
+     6,
+     12
+    ],
+    [
+     "Inverted Row",
+     3,
+     6,
+     12
+    ],
+    [
+     "Bodyweight Walking Lunge",
+     2,
+     10,
+     12
+    ],
+    [
+     "Single Leg Glute Bridge",
+     2,
+     10,
+     12
+    ]
+   ],
+   "cover": "Pushups",
+   "place": "home",
+   "for_goal": "strength"
+  },
+  {
+   "id": "full-barbell",
+   "title": "Barbell basics",
+   "focus": "full",
+   "level": "Intermediate",
+   "equipment": "Barbell",
+   "blurb": "Four big lifts with longer rests. Heavier and shorter sets.",
+   "research": [
+    "frequency-2x",
+    "rest-strength"
+   ],
+   "exercises": [
+    [
+     "Barbell Squat",
+     3,
+     5,
+     8
+    ],
+    [
+     "Barbell Bench Press - Medium Grip",
+     3,
+     5,
+     8
+    ],
+    [
+     "Bent Over Barbell Row",
+     3,
+     6,
+     8
+    ],
+    [
+     "Romanian Deadlift",
+     3,
+     8,
+     10
+    ]
+   ],
+   "cover": "Barbell Squat",
+   "place": "gym",
+   "for_goal": "strength"
+  },
+  {
+   "id": "upper-gym",
+   "title": "Upper body",
+   "focus": "upper",
+   "level": "Intermediate",
+   "equipment": "Gym",
+   "blurb": "Chest, back, shoulders and arms. Pair it with Lower body for a 4-day week.",
+   "research": [
+    "frequency-2x",
+    "rest-hypertrophy"
+   ],
+   "exercises": [
+    [
+     "Barbell Bench Press - Medium Grip",
+     3,
+     6,
+     10
+    ],
+    [
+     "Bent Over Barbell Row",
+     3,
+     6,
+     10
+    ],
+    [
+     "Dumbbell Shoulder Press",
+     3,
+     8,
+     12
+    ],
+    [
+     "Full Range-Of-Motion Lat Pulldown",
+     3,
+     8,
+     12
+    ],
+    [
+     "Barbell Curl",
+     2,
+     10,
+     12
+    ]
+   ],
+   "cover": "Barbell Bench Press - Medium Grip",
+   "place": "gym",
+   "for_goal": "muscle"
+  },
+  {
+   "id": "lower-gym",
+   "title": "Lower body",
+   "focus": "lower",
+   "level": "Intermediate",
+   "equipment": "Gym",
+   "blurb": "Quads, hamstrings, glutes and calves. Pair it with Upper body.",
+   "research": [
+    "frequency-2x",
+    "rest-hypertrophy"
+   ],
+   "exercises": [
+    [
+     "Barbell Squat",
+     3,
+     6,
+     10
+    ],
+    [
+     "Romanian Deadlift",
+     3,
+     8,
+     10
+    ],
+    [
+     "Leg Press",
+     3,
+     10,
+     12
+    ],
+    [
+     "Lying Leg Curls",
+     3,
+     10,
+     12
+    ],
+    [
+     "Seated Calf Raise",
+     3,
+     12,
+     15
+    ]
+   ],
+   "cover": "Barbell Deadlift",
+   "place": "gym",
+   "for_goal": "muscle"
+  },
+  {
+   "id": "upper-home",
+   "title": "Upper body at home",
+   "focus": "upper",
+   "level": "Beginner",
+   "equipment": "None",
+   "blurb": "Push and pull with your own bodyweight.",
+   "research": [
+    "frequency-2x"
+   ],
+   "exercises": [
+    [
+     "Pushups",
+     3,
+     6,
+     12
+    ],
+    [
+     "Inverted Row",
+     3,
+     6,
+     12
+    ],
+    [
+     "Incline Push-Up Close-Grip",
+     2,
+     8,
+     12
+    ],
+    [
+     "Scapular Pull-Up",
+     2,
+     6,
+     10
+    ]
+   ],
+   "place": "home",
+   "for_goal": "muscle"
+  },
+  {
+   "id": "lower-home",
+   "title": "Lower body at home",
+   "focus": "lower",
+   "level": "Beginner",
+   "equipment": "None",
+   "blurb": "Squats, lunges and bridges. No weights needed.",
+   "research": [
+    "frequency-2x"
+   ],
+   "exercises": [
+    [
+     "Bodyweight Squat",
+     3,
+     12,
+     20
+    ],
+    [
+     "Split Squats",
+     3,
+     8,
+     12
+    ],
+    [
+     "Single Leg Glute Bridge",
+     3,
+     10,
+     12
+    ],
+    [
+     "Bodyweight Walking Lunge",
+     2,
+     10,
+     12
+    ]
+   ],
+   "cover": "Bodyweight Walking Lunge",
+   "place": "home",
+   "for_goal": "muscle"
+  },
+  {
+   "id": "stretch-full",
+   "title": "Full body stretch",
+   "focus": "stretch",
+   "level": "Beginner",
+   "equipment": "None",
+   "blurb": "Head to toe: neck, chest and shoulders, arms, back, hips and legs. Hold each stretch, breathe slowly.",
+   "research": [
+    "stretch-hold",
+    "stretch-weekly"
+   ],
+   "exercises": [
+    [
+     "Side Neck Stretch",
+     2,
+     30,
+     30,
+     "hold"
+    ],
+    [
+     "Chest And Front Of Shoulder Stretch",
+     2,
+     30,
+     30,
+     "hold"
+    ],
+    [
+     "Shoulder Stretch",
+     2,
+     30,
+     30,
+     "hold"
+    ],
+    [
+     "Triceps Stretch",
+     2,
+     30,
+     30,
+     "hold"
+    ],
+    [
+     "Upper Back Stretch",
+     2,
+     30,
+     30,
+     "hold"
+    ],
+    [
+     "Cat Stretch",
+     2,
+     30,
+     30,
+     "hold"
+    ],
+    [
+     "Child's Pose",
+     2,
+     30,
+     30,
+     "hold"
+    ],
+    [
+     "Kneeling Hip Flexor",
+     2,
+     30,
+     30,
+     "hold"
+    ],
+    [
+     "Lying Glute",
+     2,
+     30,
+     30,
+     "hold"
+    ],
+    [
+     "Seated Floor Hamstring Stretch",
+     2,
+     30,
+     30,
+     "hold"
+    ],
+    [
+     "Calf Stretch Hands Against Wall",
+     2,
+     30,
+     30,
+     "hold"
+    ]
+   ],
+   "cover": "Child's Pose",
+   "place": "home",
+   "for_goal": "flexibility"
+  },
+  {
+   "id": "stretch-hips",
+   "title": "Hips and hamstrings",
+   "focus": "stretch",
+   "level": "Beginner",
+   "equipment": "None",
+   "blurb": "For tight hips from sitting, and a step toward touching your toes.",
+   "research": [
+    "stretch-hold",
+    "stretch-weekly"
+   ],
+   "exercises": [
+    [
+     "90/90 Hamstring",
+     2,
+     30,
+     30,
+     "hold"
+    ],
+    [
+     "Adductor/Groin",
+     2,
+     30,
+     30,
+     "hold"
+    ],
+    [
+     "Kneeling Hip Flexor",
+     2,
+     30,
+     30,
+     "hold"
+    ],
+    [
+     "Seated Hamstring",
+     2,
+     30,
+     30,
+     "hold"
+    ],
+    [
+     "Lying Glute",
+     2,
+     30,
+     30,
+     "hold"
+    ],
+    [
+     "Runner's Stretch",
+     2,
+     30,
+     30,
+     "hold"
+    ]
+   ],
+   "cover": "Runner's Stretch",
+   "place": "home",
+   "for_goal": "hips"
+  },
+  {
+   "id": "mobility-morning",
+   "title": "Morning mobility",
+   "focus": "stretch",
+   "level": "Beginner",
+   "equipment": "None",
+   "blurb": "Gentle moving stretches to wake up stiff joints. A few minutes, no equipment.",
+   "research": [
+    "stretch-weekly"
+   ],
+   "exercises": [
+    [
+     "Arm Circles",
+     1,
+     10,
+     15
+    ],
+    [
+     "Standing Hip Circles",
+     1,
+     10,
+     12
+    ],
+    [
+     "Ankle Circles",
+     1,
+     10,
+     12
+    ],
+    [
+     "Cat Stretch",
+     2,
+     8,
+     10
+    ],
+    [
+     "Inchworm",
+     2,
+     5,
+     8
+    ],
+    [
+     "Front Leg Raises",
+     1,
+     10,
+     12
+    ]
+   ],
+   "cover": "Inchworm",
+   "place": "home",
+   "for_goal": "warmup"
+  },
+  {
+   "id": "core-basics",
+   "title": "Core basics",
+   "focus": "core",
+   "level": "Beginner",
+   "equipment": "None",
+   "blurb": "Front, sides and back of your trunk, no equipment.",
+   "research": [
+    "who-activity"
+   ],
+   "exercises": [
+    [
+     "Dead Bug",
+     3,
+     8,
+     12
+    ],
+    [
+     "Plank",
+     3,
+     20,
+     20,
+     "hold"
+    ],
+    [
+     "Side Bridge",
+     2,
+     15,
+     15,
+     "hold"
+    ],
+    [
+     "Superman",
+     2,
+     10,
+     12
+    ],
+    [
+     "Reverse Crunch",
+     2,
+     10,
+     15
+    ]
+   ],
+   "cover": "Plank",
+   "place": "home",
+   "for_goal": "abs"
+  },
+  {
+   "id": "quick-full",
+   "title": "Quick full body",
+   "focus": "full",
+   "level": "Beginner",
+   "equipment": "None",
+   "blurb": "Short on time? Two rounds of the basics still count toward your week.",
+   "research": [
+    "who-activity",
+    "novice-total-body"
+   ],
+   "exercises": [
+    [
+     "Bodyweight Squat",
+     2,
+     12,
+     15
+    ],
+    [
+     "Pushups",
+     2,
+     6,
+     12
+    ],
+    [
+     "Bodyweight Walking Lunge",
+     2,
+     10,
+     12
+    ],
+    [
+     "Plank",
+     2,
+     20,
+     20,
+     "hold"
+    ]
+   ],
+   "cover": "Bodyweight Squat",
+   "place": "home",
+   "for_goal": "fitness"
+  },
+  {
+   "id": "push-gym",
+   "title": "Push day",
+   "focus": "upper",
+   "tag": "push",
+   "place": "gym",
+   "level": "Intermediate",
+   "equipment": "Gym",
+   "cover": "Incline Dumbbell Press",
+   "blurb": "Chest, shoulders and triceps. Pair it with Pull day and a leg day.",
+   "research": [
+    "frequency-2x",
+    "volume-hypertrophy"
+   ],
+   "exercises": [
+    [
+     "Barbell Bench Press - Medium Grip",
+     3,
+     6,
+     10
+    ],
+    [
+     "Incline Dumbbell Press",
+     3,
+     8,
+     12
+    ],
+    [
+     "Dumbbell Shoulder Press",
+     3,
+     8,
+     12
+    ],
+    [
+     "Side Lateral Raise",
+     3,
+     12,
+     15
+    ],
+    [
+     "Triceps Pushdown",
+     3,
+     10,
+     15
+    ]
+   ],
+   "for_goal": "muscle"
+  },
+  {
+   "id": "pull-gym",
+   "title": "Pull day",
+   "focus": "upper",
+   "tag": "pull",
+   "place": "gym",
+   "level": "Intermediate",
+   "equipment": "Gym",
+   "cover": "Wide-Grip Lat Pulldown",
+   "blurb": "Back and biceps, with face pulls for the back of the shoulders.",
+   "research": [
+    "frequency-2x",
+    "volume-hypertrophy"
+   ],
+   "exercises": [
+    [
+     "Wide-Grip Lat Pulldown",
+     3,
+     8,
+     12
+    ],
+    [
+     "Bent Over Barbell Row",
+     3,
+     6,
+     10
+    ],
+    [
+     "Seated Cable Rows",
+     3,
+     10,
+     12
+    ],
+    [
+     "Face Pull",
+     3,
+     12,
+     15
+    ],
+    [
+     "Barbell Curl",
+     3,
+     8,
+     12
+    ]
+   ],
+   "for_goal": "muscle"
+  },
+  {
+   "id": "quads-gym",
+   "title": "Quads and calves",
+   "focus": "lower",
+   "tag": "legs",
+   "place": "gym",
+   "level": "Intermediate",
+   "equipment": "Gym",
+   "cover": "Leg Press",
+   "blurb": "The front of the legs and the calves.",
+   "research": [
+    "frequency-2x",
+    "volume-hypertrophy"
+   ],
+   "exercises": [
+    [
+     "Barbell Squat",
+     3,
+     6,
+     10
+    ],
+    [
+     "Leg Press",
+     3,
+     10,
+     12
+    ],
+    [
+     "Leg Extensions",
+     3,
+     12,
+     15
+    ],
+    [
+     "Standing Calf Raises",
+     3,
+     12,
+     15
+    ]
+   ],
+   "for_goal": "muscle"
+  },
+  {
+   "id": "glutes-gym",
+   "title": "Glutes and hamstrings",
+   "focus": "lower",
+   "tag": "glutes",
+   "place": "gym",
+   "level": "Intermediate",
+   "equipment": "Gym",
+   "cover": "Barbell Hip Thrust",
+   "blurb": "Hip thrusts and hinges for the back of the legs.",
+   "research": [
+    "frequency-2x",
+    "volume-hypertrophy"
+   ],
+   "exercises": [
+    [
+     "Barbell Hip Thrust",
+     3,
+     8,
+     12
+    ],
+    [
+     "Romanian Deadlift",
+     3,
+     8,
+     10
+    ],
+    [
+     "Dumbbell Lunges",
+     3,
+     10,
+     12
+    ],
+    [
+     "Lying Leg Curls",
+     3,
+     10,
+     12
+    ]
+   ],
+   "for_goal": "glutes"
+  },
+  {
+   "id": "arms-gym",
+   "title": "Biceps and triceps",
+   "focus": "upper",
+   "tag": "arms",
+   "place": "gym",
+   "level": "Beginner",
+   "equipment": "Gym",
+   "cover": "Hammer Curls",
+   "blurb": "Curls and presses for the arms.",
+   "research": [
+    "volume-hypertrophy"
+   ],
+   "exercises": [
+    [
+     "Barbell Curl",
+     3,
+     8,
+     12
+    ],
+    [
+     "Triceps Pushdown",
+     3,
+     10,
+     15
+    ],
+    [
+     "Hammer Curls",
+     3,
+     10,
+     12
+    ],
+    [
+     "Dips - Triceps Version",
+     3,
+     6,
+     12
+    ],
+    [
+     "Concentration Curls",
+     2,
+     10,
+     15
+    ]
+   ],
+   "for_goal": "arms",
+   "goal_tip": "This workout's triceps moves (pushdown and dips) are done with your arms down. To add an overhead one, swap Dips for Seated Triceps Press (Options, on the set screen)."
+  },
+  {
+   "id": "shoulders-db",
+   "title": "Shoulders",
+   "focus": "upper",
+   "tag": "shoulders",
+   "place": "gym",
+   "level": "Beginner",
+   "equipment": "Dumbbells",
+   "cover": "Side Lateral Raise",
+   "blurb": "Front, side and back of the shoulders, with dumbbells.",
+   "research": [
+    "volume-hypertrophy"
+   ],
+   "exercises": [
+    [
+     "Dumbbell Shoulder Press",
+     3,
+     8,
+     12
+    ],
+    [
+     "Side Lateral Raise",
+     3,
+     12,
+     15
+    ],
+    [
+     "Front Dumbbell Raise",
+     2,
+     10,
+     12
+    ],
+    [
+     "Reverse Flyes",
+     3,
+     12,
+     15
+    ]
+   ],
+   "for_goal": "muscle"
+  },
+  {
+   "id": "push-home",
+   "title": "Push at home",
+   "focus": "upper",
+   "tag": "push",
+   "place": "home",
+   "level": "Beginner",
+   "equipment": "None",
+   "cover": "Push-Up Wide",
+   "blurb": "Push-up variations, pike push-ups for shoulders and dips on a chair or bench.",
+   "research": [
+    "frequency-2x"
+   ],
+   "exercises": [
+    [
+     "Pushups",
+     3,
+     6,
+     12
+    ],
+    [
+     "Push-Up Wide",
+     3,
+     6,
+     12
+    ],
+    [
+     "Decline Push-Up",
+     2,
+     5,
+     10
+    ],
+    [
+     "Bench Dips",
+     3,
+     8,
+     12
+    ],
+    [
+     "Pike Push-Up",
+     2,
+     5,
+     10
+    ]
+   ],
+   "for_goal": "muscle"
+  },
+  {
+   "id": "glutes-home",
+   "title": "Glutes at home",
+   "focus": "lower",
+   "tag": "glutes",
+   "place": "home",
+   "level": "Beginner",
+   "equipment": "None",
+   "cover": "Butt Lift (Bridge)",
+   "blurb": "Bridges, kickbacks and lunges. Just the floor.",
+   "research": [
+    "frequency-2x"
+   ],
+   "exercises": [
+    [
+     "Butt Lift (Bridge)",
+     3,
+     12,
+     15
+    ],
+    [
+     "Single Leg Glute Bridge",
+     3,
+     10,
+     12
+    ],
+    [
+     "Glute Kickback",
+     3,
+     12,
+     15
+    ],
+    [
+     "Side Leg Raises",
+     2,
+     12,
+     15
+    ],
+    [
+     "Bodyweight Walking Lunge",
+     3,
+     10,
+     12
+    ]
+   ],
+   "for_goal": "glutes"
+  },
+  {
+   "id": "arms-home",
+   "title": "Arms with dumbbells",
+   "focus": "upper",
+   "tag": "arms",
+   "place": "home",
+   "level": "Beginner",
+   "equipment": "Dumbbells",
+   "cover": "Dumbbell Bicep Curl",
+   "blurb": "Biceps and triceps with a pair of dumbbells.",
+   "research": [
+    "volume-hypertrophy"
+   ],
+   "exercises": [
+    [
+     "Dumbbell Bicep Curl",
+     3,
+     8,
+     12
+    ],
+    [
+     "Seated Triceps Press",
+     3,
+     8,
+     12
+    ],
+    [
+     "Hammer Curls",
+     3,
+     10,
+     12
+    ],
+    [
+     "Tricep Dumbbell Kickback",
+     3,
+     10,
+     12
+    ]
+   ],
+   "for_goal": "arms"
+  },
+  {
+   "id": "legs-db",
+   "title": "Legs with dumbbells",
+   "focus": "lower",
+   "tag": "legs",
+   "place": "home",
+   "level": "Beginner",
+   "equipment": "Dumbbells",
+   "cover": "Dumbbell Rear Lunge",
+   "blurb": "Squats, lunges and hinges you can do at home.",
+   "research": [
+    "frequency-2x"
+   ],
+   "exercises": [
+    [
+     "Goblet Squat",
+     3,
+     8,
+     12
+    ],
+    [
+     "Dumbbell Rear Lunge",
+     3,
+     8,
+     12
+    ],
+    [
+     "Stiff-Legged Dumbbell Deadlift",
+     3,
+     8,
+     12
+    ],
+    [
+     "Dumbbell Step Ups",
+     2,
+     10,
+     12
+    ],
+    [
+     "Standing Dumbbell Calf Raise",
+     3,
+     12,
+     15
+    ]
+   ],
+   "for_goal": "muscle"
+  },
+  {
+   "id": "sweat-home",
+   "title": "Quick sweat",
+   "focus": "full",
+   "tag": "cardio",
+   "place": "home",
+   "level": "Intermediate",
+   "equipment": "None",
+   "cover": "Mountain Climbers",
+   "blurb": "Moving fast, no equipment. Jumps included: skip them if your knees need care.",
+   "research": [
+    "who-activity"
+   ],
+   "exercises": [
+    [
+     "Mountain Climbers",
+     3,
+     20,
+     30
+    ],
+    [
+     "Freehand Jump Squat",
+     3,
+     8,
+     12
+    ],
+    [
+     "Scissors Jump",
+     3,
+     10,
+     12
+    ],
+    [
+     "Plank",
+     3,
+     30,
+     30,
+     "hold"
+    ]
+   ],
+   "for_goal": "fitness"
+  },
+  {
+   "id": "upper-hour",
+   "title": "Upper body, full gym session",
+   "focus": "upper",
+   "place": "gym",
+   "level": "Intermediate",
+   "equipment": "Gym",
+   "cover": "Incline Dumbbell Press",
+   "blurb": "Chest, back, shoulders and arms: a full hour at the gym. Heavier first, smaller muscles last.",
+   "research": [
+    "volume-hypertrophy",
+    "frequency-2x",
+    "rest-strength"
+   ],
+   "exercises": [
+    [
+     "Barbell Bench Press - Medium Grip",
+     4,
+     6,
+     10
+    ],
+    [
+     "Bent Over Barbell Row",
+     4,
+     6,
+     10
+    ],
+    [
+     "Dumbbell Shoulder Press",
+     3,
+     8,
+     12
+    ],
+    [
+     "Wide-Grip Lat Pulldown",
+     3,
+     8,
+     12
+    ],
+    [
+     "Incline Dumbbell Press",
+     3,
+     8,
+     12
+    ],
+    [
+     "Face Pull",
+     3,
+     12,
+     15
+    ],
+    [
+     "Dumbbell Bicep Curl",
+     3,
+     10,
+     15
+    ],
+    [
+     "Triceps Pushdown",
+     3,
+     10,
+     15
+    ]
+   ],
+   "for_goal": "muscle"
+  },
+  {
+   "id": "lower-hour",
+   "title": "Lower body, full gym session",
+   "focus": "lower",
+   "place": "gym",
+   "level": "Intermediate",
+   "equipment": "Gym",
+   "cover": "Barbell Hip Thrust",
+   "blurb": "Quads, hamstrings, glutes and calves: a full hour at the gym, big lifts first.",
+   "research": [
+    "volume-hypertrophy",
+    "frequency-2x",
+    "rest-strength"
+   ],
+   "exercises": [
+    [
+     "Barbell Squat",
+     4,
+     5,
+     8
+    ],
+    [
+     "Romanian Deadlift",
+     4,
+     6,
+     10
+    ],
+    [
+     "Barbell Hip Thrust",
+     3,
+     8,
+     12
+    ],
+    [
+     "Leg Press",
+     3,
+     10,
+     12
+    ],
+    [
+     "Lying Leg Curls",
+     3,
+     10,
+     15
+    ],
+    [
+     "Leg Extensions",
+     3,
+     10,
+     15
+    ],
+    [
+     "Standing Calf Raises",
+     4,
+     10,
+     15
+    ],
+    [
+     "Hanging Leg Raise",
+     3,
+     8,
+     12
+    ]
+   ],
+   "for_goal": "muscle"
+  },
+  {
+   "id": "full-hour",
+   "title": "Full body, full gym session",
+   "focus": "full",
+   "place": "gym",
+   "level": "Intermediate",
+   "equipment": "Gym",
+   "cover": "Barbell Deadlift",
+   "blurb": "Every major muscle in one hour: a big lift for each, then accessories.",
+   "research": [
+    "novice-total-body",
+    "volume-hypertrophy",
+    "rest-strength"
+   ],
+   "exercises": [
+    [
+     "Barbell Deadlift",
+     3,
+     5,
+     8
+    ],
+    [
+     "Barbell Bench Press - Medium Grip",
+     3,
+     6,
+     10
+    ],
+    [
+     "Wide-Grip Lat Pulldown",
+     3,
+     8,
+     12
+    ],
+    [
+     "Leg Press",
+     3,
+     10,
+     12
+    ],
+    [
+     "Dumbbell Shoulder Press",
+     3,
+     8,
+     12
+    ],
+    [
+     "Seated Cable Rows",
+     3,
+     10,
+     12
+    ],
+    [
+     "Side Lateral Raise",
+     3,
+     12,
+     15
+    ],
+    [
+     "Plank",
+     3,
+     30,
+     45,
+     "hold"
+    ]
+   ],
+   "for_goal": "muscle"
+  }
+ ]
+}

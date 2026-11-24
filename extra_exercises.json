@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Pike Push-Up",
+    "force": "push",
+    "level": "intermediate",
+    "mechanic": "compound",
+    "equipment": "body only",
+    "primaryMuscles": ["shoulders"],
+    "secondaryMuscles": ["triceps", "chest"],
+    "instructions": [
+      "Start in an upside-down V: hands and feet on the floor, hips high, head between your arms.",
+      "Bend your elbows and lower the top of your head toward the floor between your hands.",
+      "Press the floor away to straighten your arms and return to the V."
+    ],
+    "category": "strength",
+    "images": ["wger/pike-push-up/0.jpg", "wger/pike-push-up/1.jpg"],
+    "id": "wger-pike-push-up",
+    "credit": {
+      "source": "wger.de",
+      "author": "wger.de contributors",
+      "license": "CC-BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "url": "https://wger.de/en/exercise/454/view/",
+      "changes": "Split into two positions and animated"
+    }
+  }
+]

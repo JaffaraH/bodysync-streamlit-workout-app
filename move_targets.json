@@ -1,0 +1,529 @@
+{
+  "_about": "What each move in a curated workout works (area) and why it's there (job), plus a short 'for your goal' note per kind of workout. Areas follow the Free Exercise DB's primary muscles, in plain words. A job that rests on a study names it in 'research'; every id must be verified in research.json. Goal notes say what a workout can and can't do. 'expect' is shown under every goal note.",
+  "moves": {
+    "90/90 Hamstring": {
+      "area": "Hamstrings",
+      "job": "Stretches the back of the thigh.",
+      "research": "stretch-hold"
+    },
+    "Adductor/Groin": {
+      "area": "Inner thighs",
+      "job": "Stretches the inner thighs for wider, easier hip movement.",
+      "research": "stretch-hold"
+    },
+    "Ankle Circles": {
+      "area": "Ankles (warm-up)",
+      "job": "Circles the ankle to move it through its range."
+    },
+    "Arm Circles": {
+      "area": "Shoulders (warm-up)",
+      "job": "Moves the shoulders through their range to warm them up."
+    },
+    "Barbell Bench Press - Medium Grip": {
+      "area": "Chest, shoulders and triceps",
+      "job": "Presses weight up from your chest: the main upper-body pushing lift."
+    },
+    "Barbell Curl": {
+      "area": "Biceps",
+      "job": "Bends the elbow against resistance."
+    },
+    "Barbell Deadlift": {
+      "area": "Whole back of the body",
+      "job": "Lifts a bar from the floor using legs, hips and back together; it works your core hard too.",
+      "research": "core-emg-review"
+    },
+    "Barbell Hip Thrust": {
+      "area": "Glutes",
+      "job": "Drives loaded hips up from a bench: a direct, heavy glute move.",
+      "research": "glutes-thrust-squat"
+    },
+    "Barbell Squat": {
+      "area": "Thighs and glutes",
+      "job": "Bends hips and knees together: the main lower-body strength pattern; squats work your core too.",
+      "research": "core-emg-review"
+    },
+    "Bench Dips": {
+      "area": "Triceps, chest and shoulders",
+      "job": "Lowers and pushes your body up using your arms."
+    },
+    "Bent Over Barbell Row": {
+      "area": "Upper back and biceps",
+      "job": "Pulls toward your body, strengthening the upper back for posture."
+    },
+    "Bodyweight Squat": {
+      "area": "Thighs and glutes",
+      "job": "Bends hips and knees together: the main lower-body strength pattern; squats work your core too.",
+      "research": "core-emg-review"
+    },
+    "Bodyweight Walking Lunge": {
+      "area": "Thighs and glutes, one leg at a time",
+      "job": "Trains each leg on its own, for strength and balance."
+    },
+    "Butt Lift (Bridge)": {
+      "area": "Glutes",
+      "job": "Drives your hips up, working the glutes with the knees bent.",
+      "research": "glutes-thrust-squat"
+    },
+    "Calf Stretch Hands Against Wall": {
+      "area": "Calves",
+      "job": "Stretches the calf and ankle."
+    },
+    "Cat Stretch": {
+      "area": "Spine",
+      "job": "Rounds and arches the back to move the whole spine."
+    },
+    "Chest And Front Of Shoulder Stretch": {
+      "area": "Chest and front of shoulders",
+      "job": "Opens the chest after sitting or pressing."
+    },
+    "Child's Pose": {
+      "area": "Lower back and hips",
+      "job": "Rests the hips back to stretch the lower back."
+    },
+    "Concentration Curls": {
+      "area": "Biceps",
+      "job": "Bends the elbow against resistance."
+    },
+    "Cross-Body Crunch": {
+      "area": "Abs and obliques",
+      "job": "Curls and twists your ribs toward the opposite knee."
+    },
+    "Dead Bug": {
+      "area": "Deep core",
+      "job": "Keeps your lower back down while your arms and legs move (anti-extension)."
+    },
+    "Decline Push-Up": {
+      "area": "Chest, shoulders and triceps",
+      "job": "Pushes your body away from the floor; your core holds you straight."
+    },
+    "Dips - Triceps Version": {
+      "area": "Triceps, chest and shoulders",
+      "job": "Lowers and pushes your body up using your arms."
+    },
+    "Dumbbell Bench Press": {
+      "area": "Chest, shoulders and triceps",
+      "job": "Presses weight up from your chest: the main upper-body pushing lift."
+    },
+    "Dumbbell Bicep Curl": {
+      "area": "Biceps",
+      "job": "Bends the elbow against resistance."
+    },
+    "Dumbbell Lunges": {
+      "area": "Thighs and glutes, one leg at a time",
+      "job": "Trains each leg on its own, for strength and balance."
+    },
+    "Dumbbell Rear Lunge": {
+      "area": "Thighs and glutes, one leg at a time",
+      "job": "Trains each leg on its own, for strength and balance."
+    },
+    "Dumbbell Shoulder Press": {
+      "area": "Shoulders and triceps",
+      "job": "Presses weight overhead."
+    },
+    "Dumbbell Step Ups": {
+      "area": "Thighs and glutes, one leg at a time",
+      "job": "Pushes your body up onto a step with one leg: strength and balance for stairs."
+    },
+    "Face Pull": {
+      "area": "Back of the shoulders and upper back",
+      "job": "Pulls a rope toward your face, balancing all the pressing."
+    },
+    "Freehand Jump Squat": {
+      "area": "Thighs and glutes, raises heart rate",
+      "job": "Jumping moves: leg power and a fast heart rate."
+    },
+    "Front Dumbbell Raise": {
+      "area": "Front of the shoulders",
+      "job": "Lifts the arms forward to shoulder height."
+    },
+    "Front Leg Raises": {
+      "area": "Hamstrings and hips (warm-up)",
+      "job": "Swings the leg forward to loosen the hamstrings and hips."
+    },
+    "Full Range-Of-Motion Lat Pulldown": {
+      "area": "Lats (sides of the back) and biceps",
+      "job": "Pulls a bar down from overhead: the move that builds toward a pull-up."
+    },
+    "Glute Kickback": {
+      "area": "Glutes",
+      "job": "Pushes one leg back and up, working one glute at a time."
+    },
+    "Goblet Squat": {
+      "area": "Thighs and glutes",
+      "job": "Bends hips and knees together: the main lower-body strength pattern; squats work your core too.",
+      "research": "core-emg-review"
+    },
+    "Hammer Curls": {
+      "area": "Biceps and forearms",
+      "job": "A curl with thumbs up, which also works the forearm."
+    },
+    "Hanging Leg Raise": {
+      "area": "Lower abs and hip flexors",
+      "job": "Lifts your legs while you hang, working the six-pack muscle and the front of your hips."
+    },
+    "Inchworm": {
+      "area": "Hamstrings, shoulders and core",
+      "job": "Walks the hands out to a plank and back: a moving stretch for the back of the legs."
+    },
+    "Incline Dumbbell Press": {
+      "area": "Upper chest and shoulders",
+      "job": "Presses on an inclined bench, with more work for the upper chest and front shoulders."
+    },
+    "Incline Push-Up Close-Grip": {
+      "area": "Triceps and chest",
+      "job": "Hands close and raised: an easier push-up angle that puts more work on the triceps."
+    },
+    "Inverted Row": {
+      "area": "Upper back and biceps",
+      "job": "Pulls toward your body, strengthening the upper back for posture."
+    },
+    "Kneeling Hip Flexor": {
+      "area": "Front of the hip (hip flexors)",
+      "job": "Stretches the front of the hip, which gets tight from sitting.",
+      "research": "stretch-hold"
+    },
+    "Leg Extensions": {
+      "area": "Front of the thighs",
+      "job": "Straightens the knee against resistance, isolating the front of the thigh."
+    },
+    "Leg Press": {
+      "area": "Thighs and glutes",
+      "job": "Bends hips and knees together: the main lower-body strength pattern; squats work your core too.",
+      "research": "core-emg-review"
+    },
+    "Lying Glute": {
+      "area": "Glutes and outer hip",
+      "job": "Stretches the glutes and the outside of the hip.",
+      "research": "stretch-hold"
+    },
+    "Lying Leg Curls": {
+      "area": "Hamstrings",
+      "job": "Bends the knee against resistance, isolating the back of the thigh."
+    },
+    "Mountain Climbers": {
+      "area": "Core and legs, raises heart rate",
+      "job": "Holds a plank while your knees drive in fast: core control plus a quick sweat."
+    },
+    "One-Arm Dumbbell Row": {
+      "area": "Upper back and biceps",
+      "job": "Pulls toward your body, strengthening the upper back for posture."
+    },
+    "Pelvic Tilt Into Bridge": {
+      "area": "Lower back and glutes",
+      "job": "Rolls your spine up one bone at a time, for control of your lower back and hips."
+    },
+    "Pike Push-Up": {
+      "area": "Shoulders and triceps",
+      "job": "Pushes with your hips high, so the shoulders press overhead like in a handstand."
+    },
+    "Plank": {
+      "area": "Whole core",
+      "job": "Holds your body in one straight line so your back doesn't sag (anti-extension).",
+      "research": "core-emg-review"
+    },
+    "Push Up to Side Plank": {
+      "area": "Chest, arms and side core",
+      "job": "A push-up, then a turn into a side plank: pushing strength plus obliques."
+    },
+    "Push-Up Wide": {
+      "area": "Chest, shoulders and triceps",
+      "job": "Pushes your body away from the floor; your core holds you straight."
+    },
+    "Pushups": {
+      "area": "Chest, shoulders and triceps",
+      "job": "Pushes your body away from the floor; your core holds you straight."
+    },
+    "Reverse Crunch": {
+      "area": "Lower abs",
+      "job": "Curls your hips up toward your ribs, working the six-pack muscle from the bottom."
+    },
+    "Reverse Flyes": {
+      "area": "Back of the shoulders",
+      "job": "Opens the arms out behind you, balancing all the pressing."
+    },
+    "Romanian Deadlift": {
+      "area": "Hamstrings and glutes",
+      "job": "Hinges at the hips with a long stretch on the back of the thighs."
+    },
+    "Runner's Stretch": {
+      "area": "Hamstrings",
+      "job": "Stretches the back of the thigh.",
+      "research": "stretch-hold"
+    },
+    "Scapular Pull-Up": {
+      "area": "Upper back (shoulder blades)",
+      "job": "Hangs and pulls the shoulder blades down without bending the arms: the first step toward a pull-up."
+    },
+    "Scissors Jump": {
+      "area": "Thighs and glutes, raises heart rate",
+      "job": "Jumping moves: leg power and a fast heart rate."
+    },
+    "Seated Cable Rows": {
+      "area": "Upper back and biceps",
+      "job": "Pulls toward your body, strengthening the upper back for posture."
+    },
+    "Seated Calf Raise": {
+      "area": "Calves",
+      "job": "Rises onto your toes, strengthening the calves and ankles."
+    },
+    "Seated Floor Hamstring Stretch": {
+      "area": "Hamstrings",
+      "job": "Stretches the back of the thigh.",
+      "research": "stretch-hold"
+    },
+    "Seated Hamstring": {
+      "area": "Hamstrings",
+      "job": "Stretches the back of the thigh.",
+      "research": "stretch-hold"
+    },
+    "Seated Triceps Press": {
+      "area": "Triceps, especially the long head",
+      "job": "Straightens the elbow with the weight overhead, which stretches the triceps more; overhead work grew the triceps more in a study.",
+      "research": "triceps-overhead"
+    },
+    "Shoulder Stretch": {
+      "area": "Shoulders",
+      "job": "Stretches the back of the shoulder."
+    },
+    "Side Bridge": {
+      "area": "Side core (obliques)",
+      "job": "Stops your hips dropping sideways (anti-side-bending).",
+      "research": "core-emg-review"
+    },
+    "Side Lateral Raise": {
+      "area": "Side of the shoulders",
+      "job": "Lifts the arms out to the sides, isolating the side of the shoulder."
+    },
+    "Side Leg Raises": {
+      "area": "Side of hips",
+      "job": "Lifts your leg out to the side, working the muscles on the side of your hip."
+    },
+    "Side Neck Stretch": {
+      "area": "Neck",
+      "job": "Stretches the side of the neck."
+    },
+    "Single Leg Glute Bridge": {
+      "area": "Glutes",
+      "job": "Drives your hips up, working the glutes with the knees bent.",
+      "research": "glutes-thrust-squat"
+    },
+    "Split Squats": {
+      "area": "Thighs and glutes, one leg at a time",
+      "job": "Trains each leg on its own, for strength and balance."
+    },
+    "Standing Calf Raises": {
+      "area": "Calves",
+      "job": "Rises onto your toes, strengthening the calves and ankles."
+    },
+    "Standing Dumbbell Calf Raise": {
+      "area": "Calves",
+      "job": "Rises onto your toes, strengthening the calves and ankles."
+    },
+    "Standing Hip Circles": {
+      "area": "Hips (warm-up)",
+      "job": "Circles each hip to move it through its range."
+    },
+    "Step-up with Knee Raise": {
+      "area": "Thighs and glutes, one leg at a time",
+      "job": "Pushes your body up onto a step with one leg: strength and balance for stairs."
+    },
+    "Stiff-Legged Dumbbell Deadlift": {
+      "area": "Hamstrings and glutes",
+      "job": "Hinges at the hips with a long stretch on the back of the thighs."
+    },
+    "Superman": {
+      "area": "Lower back and glutes",
+      "job": "Lifts your chest and legs, strengthening the back side of your core."
+    },
+    "Tricep Dumbbell Kickback": {
+      "area": "Triceps",
+      "job": "Straightens the elbow with your arm by your side."
+    },
+    "Triceps Pushdown": {
+      "area": "Triceps",
+      "job": "Straightens the elbow with your arm by your side."
+    },
+    "Triceps Stretch": {
+      "area": "Triceps",
+      "job": "Stretches the back of the upper arm."
+    },
+    "Upper Back Stretch": {
+      "area": "Upper back",
+      "job": "Rounds and stretches the upper back."
+    },
+    "Wide-Grip Lat Pulldown": {
+      "area": "Lats (sides of the back) and biceps",
+      "job": "Pulls a bar down from overhead: the move that builds toward a pull-up."
+    }
+  },
+  "goals": {
+    "abs": {
+      "title": "Want visible abs?",
+      "lines": [
+        "This workout builds core strength and endurance. Ab moves alone did not shrink belly fat in studies.",
+        "Whether abs show depends on the fat over them, and that comes from moving more each day and eating a little less, not from more crunches.",
+        "Pair it with daily walking, keep 2 or more strength days a week so you keep muscle, and eat enough protein.",
+        "Big lifts like squats and lunges work your core too, so they count."
+      ],
+      "research": [
+        "no-spot-reduction",
+        "spot-reduction-meta",
+        "weight-loss-activity",
+        "strength-keeps-muscle",
+        "protein-1-6",
+        "core-emg-review"
+      ]
+    },
+    "core": {
+      "title": "Want a strong core?",
+      "lines": [
+        "This workout trains all sides of your core: the front (dead bug, plank), the sides (side bridge) and the back (superman, bridge).",
+        "For back pain, core work helped about as much as other kinds of exercise, so the best one is the one you'll keep doing.",
+        "It builds strength, not a smaller waist: that comes from losing fat overall."
+      ],
+      "research": [
+        "core-emg-review",
+        "pilates-back",
+        "core-stability-limits",
+        "spot-reduction-meta"
+      ]
+    },
+    "arms": {
+      "title": "Want firmer, more defined arms?",
+      "lines": [
+        "There's no separate toning workout: firmer arms come from building the muscle and losing fat overall. Arm moves alone don't burn arm fat.",
+        "Light or heavy weights both build muscle if the last 2 or 3 reps of each set are hard.",
+        "For the triceps (the back of the arm), one move with your arms overhead grew the muscle more in a study.",
+        "Work up to about 10 hard sets per muscle a week."
+      ],
+      "research": [
+        "spot-reduction-meta",
+        "load-spectrum",
+        "triceps-overhead",
+        "volume-hypertrophy"
+      ]
+    },
+    "glutes": {
+      "title": "Want stronger, rounder glutes?",
+      "lines": [
+        "Bridges, hip thrusts, squats and lunges all build the glutes. In one study, hip thrusts and squats grew the glutes about the same, and squats also grew the thighs more.",
+        "Add weight or reps over time: the same weight forever stops working.",
+        "Work up to about 10 hard sets for your glutes a week, over 2 days."
+      ],
+      "research": [
+        "glutes-thrust-squat",
+        "progression-top-of-range",
+        "volume-hypertrophy",
+        "frequency-2x"
+      ]
+    },
+    "hips": {
+      "title": "Want looser hips and hamstrings?",
+      "lines": [
+        "Flexibility builds with total time: at least about 5 minutes a week per area, with holds of 10 to 30 seconds.",
+        "Doing this 2 or 3 times a week gets you there; daily works best.",
+        "Strength moves through a full range (deep squats, long lunges, Romanian deadlifts) improved flexibility as much as stretching."
+      ],
+      "research": [
+        "stretch-weekly",
+        "stretch-hold",
+        "strength-rom"
+      ]
+    },
+    "warmup": {
+      "title": "What this is for",
+      "lines": [
+        "These are moving warm-ups: they get your joints going before a workout or a long day of sitting.",
+        "For more flexibility over time, you also need held stretches adding up to about 5 minutes a week per area, for example Hips and hamstrings."
+      ],
+      "research": [
+        "warmup-stretch",
+        "stretch-weekly"
+      ]
+    },
+    "muscle": {
+      "title": "Want to build muscle?",
+      "lines": [
+        "Train each muscle on 2 days a week, working up to about 10 hard sets per muscle each week.",
+        "Light or heavy both work if the last 2 or 3 reps of each set are hard.",
+        "Add a rep or a little weight when you can, and eat about 1.6 g of protein per kg of body weight a day."
+      ],
+      "research": [
+        "frequency-2x",
+        "volume-hypertrophy",
+        "load-spectrum",
+        "progression-top-of-range",
+        "protein-1-6"
+      ]
+    },
+    "strength": {
+      "title": "Want to get stronger?",
+      "lines": [
+        "Heavier weights gave the most strength gain. Rest longer between heavy sets: 3 to 5 minutes gave more strength than 1 minute.",
+        "Add a little weight once you beat your rep target 2 sessions in a row.",
+        "Do it on 2 or 3 days a week, with a day off between."
+      ],
+      "research": [
+        "load-spectrum",
+        "rest-strength",
+        "progression-top-of-range",
+        "novice-total-body"
+      ]
+    },
+    "knees": {
+      "title": "Want knees that hurt less?",
+      "lines": [
+        "Exercise eased knee pain and improved function for people with knee osteoarthritis.",
+        "Keep each move in a range that feels comfortable, and build up slowly."
+      ],
+      "research": [
+        "knee-exercise",
+        "frequency-2x"
+      ]
+    },
+    "skill": {
+      "title": "Building a skill",
+      "lines": [
+        "Each move here builds strength in a part of the final skill. Practise on 2 or more days a week.",
+        "When you beat your target 2 sessions in a row, take the next step."
+      ],
+      "research": [
+        "frequency-2x",
+        "progression-top-of-range"
+      ]
+    },
+    "fitness": {
+      "title": "Want to feel fitter?",
+      "lines": [
+        "Adults are advised to get 150 to 300 minutes of moderate activity a week, plus strength work on 2 days.",
+        "Short sessions like this one count toward both."
+      ],
+      "research": [
+        "who-activity"
+      ]
+    },
+    "flexibility": {
+      "title": "Want to be more flexible?",
+      "lines": [
+        "Flexibility builds with total time: at least about 5 minutes a week per area, with holds of 10 to 30 seconds.",
+        "Doing this 2 or 3 times a week gets you there; daily works best.",
+        "Strength moves through a full range improved flexibility as much as stretching, so your workouts help too."
+      ],
+      "research": [
+        "stretch-weekly",
+        "stretch-hold",
+        "strength-rom"
+      ]
+    }
+  },
+  "expect": {
+    "lines": [
+      "When to expect change: strength usually comes first, in the first few weeks, as your body learns the moves.",
+      "Muscle growth starts early but is small at first; the studies behind these notes saw clear changes after 9 to 12 weeks."
+    ],
+    "research": [
+      "strength-early",
+      "size-timeline"
+    ]
+  }
+}

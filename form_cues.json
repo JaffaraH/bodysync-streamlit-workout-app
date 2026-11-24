@@ -1,0 +1,123 @@
+{
+  "_about": "Short form cues for common lifts, written for BodySync in plain language. Cues describe what to do to the bar, the floor or the body (the research favours that over 'squeeze this muscle'). General coaching, not medical advice.",
+  "Barbell Bench Press - Medium Grip": {
+    "cues": ["Pull the bar apart and tuck your shoulder blades back and down", "Keep your feet planted and push the floor away", "Lower to your lower chest, then press up in a slight arc toward your eyes"],
+    "watch": "Bouncing the bar off your chest, or your hips lifting off the bench.",
+    "feel": "Chest, front of the shoulders, back of the arms",
+    "easier": "Push-ups, or dumbbells with lighter weight. Use safety arms or a spotter."
+  },
+  "Barbell Squat": {
+    "cues": ["Spread the floor apart with your feet", "Sit down between your hips, knees tracking over your toes", "Stand up by pushing the floor away, chest tall"],
+    "watch": "Heels lifting, knees collapsing inward, or your lower back rounding at the bottom.",
+    "feel": "Thighs and glutes",
+    "easier": "Bodyweight squats or a box squat."
+  },
+  "Barbell Deadlift": {
+    "cues": ["Pull the slack out of the bar before it leaves the floor", "Push the floor away instead of yanking with your back", "Stand tall at the top; don't lean back"],
+    "watch": "Rounding your back, or the bar drifting away from your legs.",
+    "feel": "Glutes, hamstrings and the whole back",
+    "easier": "Romanian deadlifts with lighter weight, or a kettlebell deadlift."
+  },
+  "Romanian Deadlift": {
+    "cues": ["Push your hips back as if closing a car door with them", "Keep the bar sliding down your legs", "Stop when you feel a stretch behind your thighs"],
+    "watch": "Rounding your back, or bending your knees into a squat.",
+    "feel": "Hamstrings and glutes",
+    "easier": "Dumbbells or a lighter bar, shorter range."
+  },
+  "Barbell Shoulder Press": {
+    "cues": ["Squeeze your glutes and keep your ribs down", "Press the bar straight up and move your head through at the top", "Keep the bar over the middle of your foot"],
+    "watch": "Leaning back to muscle the weight up.",
+    "feel": "Shoulders, back of the arms",
+    "easier": "Seated dumbbell press with lighter weight."
+  },
+  "Bent Over Barbell Row": {
+    "cues": ["Hinge forward and keep your torso still", "Pull the bar to your belly button, elbows toward your back pockets", "Lower the bar slowly"],
+    "watch": "Swinging your torso to move the weight.",
+    "feel": "Back, back of the shoulders, front of the arms",
+    "easier": "Inverted rows or a chest-supported row."
+  },
+  "Leg Press": {
+    "cues": ["Keep your hips and lower back flat on the seat", "Push through your whole foot", "Stop just short of locking your knees"],
+    "watch": "Hips curling off the seat at the bottom, or knees falling inward.",
+    "feel": "Thighs and glutes",
+    "easier": "Lighter weight or a shorter range of motion."
+  },
+  "Barbell Curl": {
+    "cues": ["Keep your elbows pinned by your sides", "Lift the bar up, then lower it slowly", "Stay tall; don't swing your back"],
+    "watch": "Rocking your torso to cheat the bar up.",
+    "feel": "Front of the upper arms",
+    "easier": "Dumbbells with lighter weight."
+  },
+  "Full Range-Of-Motion Lat Pulldown": {
+    "cues": ["Pull your elbows down toward your back pockets", "Lean back a little and lift your chest to the bar", "Let the bar rise under control"],
+    "watch": "Yanking the bar with momentum, or pulling it behind your neck.",
+    "feel": "Sides of the back, front of the arms",
+    "easier": "Lighter weight, or use a resistance band."
+  },
+  "Dips - Triceps Version": {
+    "cues": ["Stay upright with your elbows pointing back", "Lower until your upper arms are about parallel to the floor", "Press the handles down to rise"],
+    "watch": "Shoulders rolling forward, or dropping lower than feels comfortable.",
+    "feel": "Back of the arms, chest",
+    "easier": "Bench dips or push-ups."
+  },
+  "Barbell Hip Thrust": {
+    "cues": ["Tuck your chin and keep your ribs down", "Push through your heels", "Squeeze your glutes at the top and pause"],
+    "watch": "Arching your lower back at the top instead of using your glutes.",
+    "feel": "Glutes",
+    "easier": "Glute bridge on the floor, no weight."
+  },
+  "Barbell Lunge": {
+    "cues": ["Take a long step and drop straight down", "Keep your front knee over your middle toes", "Push through the front heel to stand"],
+    "watch": "Front knee caving in, or leaning forward.",
+    "feel": "Thighs and glutes",
+    "easier": "Split squats holding a wall or post."
+  },
+  "Pullups": {
+    "cues": ["Start from a full hang with your shoulders pulled down", "Pull your elbows toward your ribs", "Get your chin over the bar, then lower with control"],
+    "watch": "Swinging, or stopping halfway up and down.",
+    "feel": "Back and front of the arms",
+    "easier": "Band-assisted or slow-lowering pull-ups."
+  },
+  "Chin-Up": {
+    "cues": ["Start from a full hang with your shoulders pulled down", "Pull your chest toward the bar", "Lower slowly to straight arms"],
+    "watch": "Swinging, or cutting the bottom half short.",
+    "feel": "Front of the arms and back",
+    "easier": "Band-assisted or slow-lowering chin-ups."
+  },
+  "Pushups": {
+    "cues": ["Make your body one straight line from head to heels", "Screw your hands into the floor", "Lower your chest to the floor and press the floor away"],
+    "watch": "Sagging hips, flared elbows, or half reps.",
+    "feel": "Chest, shoulders, back of the arms",
+    "easier": "Incline push-ups with your hands on a table."
+  },
+  "Incline Push-Up": {
+    "cues": ["Hands on something stable, body in one straight line", "Lower your chest to the edge", "Press away until your arms are straight"],
+    "watch": "Hips sagging or poking up.",
+    "feel": "Chest, shoulders, back of the arms",
+    "easier": "Wall push-ups."
+  },
+  "Plank": {
+    "cues": ["Squeeze your glutes and pull your belly button up", "Push the floor away through your forearms", "Breathe steadily; end the set when your hips sag"],
+    "watch": "Hips sagging, or piking up toward the ceiling.",
+    "feel": "Stomach, glutes, shoulders",
+    "easier": "Knees down, or hands on a bench."
+  },
+  "Bodyweight Squat": {
+    "cues": ["Spread the floor apart with your feet", "Sit back and down, heels flat", "Stand up by pushing the floor away"],
+    "watch": "Heels lifting or knees caving in.",
+    "feel": "Thighs and glutes",
+    "easier": "Squat to a chair and stand up."
+  },
+  "Inverted Row": {
+    "cues": ["Keep your body in one straight line like a plank", "Pull your chest to the bar", "Squeeze your shoulder blades together at the top"],
+    "watch": "Hips dropping, or only pulling with your arms.",
+    "feel": "Back and front of the arms",
+    "easier": "Bend your knees, or stand more upright."
+  },
+  "Split Squats": {
+    "cues": ["Stand tall with a long stance", "Lower your back knee straight down", "Keep your weight on the front heel"],
+    "watch": "Leaning forward, or the front knee caving in.",
+    "feel": "Thighs and glutes",
+    "easier": "Hold a wall or post for balance."
+  }
+}

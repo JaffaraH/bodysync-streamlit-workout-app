@@ -1,0 +1,591 @@
+{
+  "_about": "Skill ladders written for BodySync (original wording, common coaching practice). Targets follow the widely used guidance of roughly 10-12 clean reps (or 20-30 second holds) before moving up. Not medical advice.",
+  "ladders": [
+    {
+      "id": "first-pushup",
+      "title": "Push-up",
+      "blurb": "From a plank to full push-ups, one manageable step at a time.",
+      "final": "Full push-ups, 3 sets of 8",
+      "warmup": [
+        {
+          "name": "Arm circles",
+          "how": "30 seconds forward, 30 seconds back. Start small and get bigger."
+        },
+        {
+          "name": "Arm swings",
+          "how": "Swing both arms wide open, then hug yourself. 20 reps. Loosens the chest and shoulders."
+        },
+        {
+          "name": "Wrist circles",
+          "how": "10 slow circles each way."
+        }
+      ],
+      "steps": [
+        {
+          "id": "plank",
+          "name": "Plank hold",
+          "kind": "hold",
+          "sets": 3,
+          "target": 20,
+          "library": "Plank",
+          "how": "Hands or forearms under your shoulders, body in one straight line, squeeze your glutes and stomach. Stop the set if your hips sag."
+        },
+        {
+          "id": "wall",
+          "name": "Wall push-up",
+          "kind": "reps",
+          "sets": 3,
+          "target": 12,
+          "library": "Incline Push-Up",
+          "how": "Stand an arm's length from a wall, hands at shoulder height. Bend your elbows to bring your chest toward the wall, then press back. Keep your body straight.",
+          "options": [
+            {
+              "id": "wall-slow",
+              "name": "Slow-lowering wall push-up",
+              "kind": "reps",
+              "sets": 3,
+              "target": 8,
+              "how": "Lower your chest to the wall over 3 seconds, then push back."
+            }
+          ]
+        },
+        {
+          "id": "incline",
+          "name": "Incline push-up",
+          "kind": "reps",
+          "sets": 3,
+          "target": 10,
+          "library": "Incline Push-Up",
+          "how": "Hands on a sturdy table, counter or sofa. Lower your chest to the edge and press up. A lower surface is harder, so move down over time."
+        },
+        {
+          "id": "knee",
+          "name": "Knee push-up",
+          "kind": "reps",
+          "sets": 3,
+          "target": 10,
+          "library": "Pushups",
+          "how": "Knees on the floor, straight line from knees to head. Lower your chest to just above the floor, then press up.",
+          "options": [
+            {
+              "id": "knee-slow",
+              "name": "Slow-lowering knee push-up",
+              "kind": "reps",
+              "sets": 3,
+              "target": 6,
+              "how": "On your knees, lower over 3 seconds; it's fine to push back up from the floor."
+            },
+            {
+              "id": "incline-low",
+              "name": "Low incline push-up",
+              "kind": "reps",
+              "sets": 3,
+              "target": 10,
+              "library": "Incline Push-Up",
+              "how": "Hands on a low step or bench, body in one straight line."
+            }
+          ]
+        },
+        {
+          "id": "slow",
+          "name": "Slow-lowering push-up",
+          "kind": "reps",
+          "sets": 3,
+          "target": 5,
+          "library": "Pushups",
+          "how": "Start at the top of a full push-up. Lower for 3 to 5 seconds all the way down, drop to your knees, reset. This builds the strength to press back up.",
+          "options": [
+            {
+              "id": "plank-long",
+              "name": "Long plank hold",
+              "kind": "hold",
+              "sets": 3,
+              "target": 40,
+              "library": "Plank",
+              "how": "Straight-arm or forearm plank, body in one line, squeeze your glutes."
+            }
+          ]
+        },
+        {
+          "id": "full",
+          "name": "Full push-up",
+          "kind": "reps",
+          "sets": 3,
+          "target": 8,
+          "library": "Pushups",
+          "how": "Hands just wider than your shoulders, body straight from head to heels. Lower until your chest is near the floor, then press up."
+        }
+      ],
+      "research": [
+        "knee-vs-toe",
+        "eccentric-strength"
+      ]
+    },
+    {
+      "id": "pushup-variations",
+      "title": "Harder push-ups",
+      "blurb": "Once full push-ups feel solid: new hand positions and angles.",
+      "final": "Decline push-ups, 3 sets of 8",
+      "warmup": [
+        {
+          "name": "Arm circles",
+          "how": "30 seconds forward, 30 seconds back."
+        },
+        {
+          "name": "Arm swings",
+          "how": "Swing both arms wide open, then hug yourself. 20 reps."
+        }
+      ],
+      "steps": [
+        {
+          "id": "full12",
+          "name": "Full push-up",
+          "kind": "reps",
+          "sets": 3,
+          "target": 12,
+          "library": "Pushups",
+          "how": "Clean, controlled reps with your body in one line. Build to 12 before changing the shape."
+        },
+        {
+          "id": "wide",
+          "name": "Wide push-up",
+          "kind": "reps",
+          "sets": 3,
+          "target": 10,
+          "library": "Push-Up Wide",
+          "how": "Hands wider than your shoulders. Works the chest more. Keep your elbows pointing back and out at about 45 degrees."
+        },
+        {
+          "id": "narrow",
+          "name": "Narrow push-up",
+          "kind": "reps",
+          "sets": 3,
+          "target": 10,
+          "library": "Pushups (Close and Wide Hand Positions)",
+          "how": "Hands under your chest, close together. Elbows brush your sides as you lower."
+        },
+        {
+          "id": "triceps",
+          "name": "Triceps push-up",
+          "kind": "reps",
+          "sets": 3,
+          "target": 8,
+          "library": "Close-Grip Push-Up off of a Dumbbell",
+          "how": "Hands under your shoulders, elbows tucked tight against your ribs. Go slowly. This one targets the back of the arms."
+        },
+        {
+          "id": "decline",
+          "name": "Decline push-up",
+          "kind": "reps",
+          "sets": 3,
+          "target": 8,
+          "library": "Decline Push-Up",
+          "how": "Feet on a low step or sofa, hands on the floor. Keep your hips level with your shoulders."
+        }
+      ]
+    },
+    {
+      "id": "pullup",
+      "title": "Pull-up",
+      "blurb": "Build the hang, the shoulders and the pull, then put it together.",
+      "final": "Pull-ups, 3 sets of 5",
+      "warmup": [
+        {
+          "name": "Arm circles",
+          "how": "30 seconds forward, 30 seconds back."
+        },
+        {
+          "name": "Shoulder shrugs",
+          "how": "10 slow shrugs, lifting and lowering your shoulders."
+        },
+        {
+          "name": "Wrist circles",
+          "how": "10 slow circles each way."
+        }
+      ],
+      "steps": [
+        {
+          "id": "hang",
+          "name": "Dead hang",
+          "kind": "hold",
+          "sets": 3,
+          "target": 20,
+          "library": "Pullups",
+          "how": "Hang from a bar with straight arms and your shoulders slightly pulled down. Use a step to get up and down, and come down before your grip gives out."
+        },
+        {
+          "id": "scap",
+          "name": "Scapular pull-up",
+          "kind": "reps",
+          "sets": 3,
+          "target": 8,
+          "library": "Scapular Pull-Up",
+          "how": "Hang with straight arms, then pull your shoulder blades down and together so your body rises a little. Do not bend your elbows."
+        },
+        {
+          "id": "row",
+          "name": "Inverted row",
+          "kind": "reps",
+          "sets": 3,
+          "target": 10,
+          "library": "Inverted Row",
+          "how": "Lie under a sturdy bar or table edge, grip it, and pull your chest up to it with a straight body. Walk your feet forward to make it harder."
+        },
+        {
+          "id": "negative",
+          "name": "Slow-lowering pull-up",
+          "kind": "reps",
+          "sets": 3,
+          "target": 4,
+          "library": "Pullups",
+          "how": "Jump or step up so your chin is over the bar. Lower yourself for 4 to 5 seconds until your arms are straight.",
+          "options": [
+            {
+              "id": "flexed-hang",
+              "name": "Flexed-arm hang",
+              "kind": "hold",
+              "sets": 3,
+              "target": 10,
+              "how": "Jump or step up so your chin is over the bar, then hold it there."
+            }
+          ]
+        },
+        {
+          "id": "band",
+          "name": "Band-assisted pull-up",
+          "kind": "reps",
+          "sets": 3,
+          "target": 6,
+          "library": "Band Assisted Pull-Up",
+          "how": "Loop a resistance band over the bar and under your knee or foot. Pull your chin over the bar. Use a thinner band over time.",
+          "options": [
+            {
+              "id": "neg-more",
+              "name": "Slow-lowering pull-up, 5 reps",
+              "kind": "reps",
+              "sets": 3,
+              "target": 5,
+              "how": "Start with your chin over the bar and lower over 3 to 5 seconds."
+            }
+          ]
+        },
+        {
+          "id": "pullup",
+          "name": "Pull-up",
+          "kind": "reps",
+          "sets": 3,
+          "target": 5,
+          "library": "Pullups",
+          "how": "Hands just wider than your shoulders, pull until your chin clears the bar, lower with control."
+        }
+      ],
+      "research": [
+        "eccentric-strength"
+      ]
+    },
+    {
+      "id": "pistol",
+      "title": "Pistol squat",
+      "blurb": "Single-leg squat strength, balance and depth.",
+      "final": "Pistol squats, 3 sets of 3 per side",
+      "warmup": [
+        {
+          "name": "Leg swings",
+          "how": "10 forward and back swings per leg, holding a wall for balance."
+        },
+        {
+          "name": "Hip circles",
+          "how": "10 slow circles each way per leg."
+        }
+      ],
+      "steps": [
+        {
+          "id": "squat",
+          "name": "Bodyweight squat",
+          "kind": "reps",
+          "sets": 3,
+          "target": 15,
+          "library": "Bodyweight Squat",
+          "how": "Feet shoulder-width apart, sit back and down with your heels flat, then stand."
+        },
+        {
+          "id": "deep",
+          "name": "Deep squat hold",
+          "kind": "hold",
+          "sets": 3,
+          "target": 20,
+          "library": "Bodyweight Squat",
+          "how": "Sit at the bottom of a squat with your heels down. Hold a door frame or post for balance if you need to."
+        },
+        {
+          "id": "split",
+          "name": "Split squat",
+          "kind": "reps",
+          "sets": 3,
+          "target": 10,
+          "per_side": true,
+          "library": "Split Squats",
+          "how": "One foot forward, one back. Lower your back knee toward the floor and stand. Switch sides."
+        },
+        {
+          "id": "box",
+          "name": "Bench pistol (sit to stand)",
+          "kind": "reps",
+          "sets": 3,
+          "target": 5,
+          "per_side": true,
+          "library": "Kettlebell Pistol Squat",
+          "how": "Sit on a bench with one leg held out in front. Stand up on the other leg, then sit back down slowly."
+        },
+        {
+          "id": "assisted",
+          "name": "Assisted pistol squat",
+          "kind": "reps",
+          "sets": 3,
+          "target": 5,
+          "per_side": true,
+          "library": "Kettlebell Pistol Squat",
+          "how": "Hold a post or door frame lightly. Squat down on one leg with the other held out, then stand. Use less hand help over time."
+        },
+        {
+          "id": "pistol",
+          "name": "Pistol squat",
+          "kind": "reps",
+          "sets": 3,
+          "target": 3,
+          "per_side": true,
+          "library": "Kettlebell Pistol Squat",
+          "how": "Squat down on one leg with the other held out in front, then stand back up with no help."
+        }
+      ]
+    },
+    {
+      "id": "handstand",
+      "title": "Handstand",
+      "blurb": "Strong shoulders and wrists first, then the wall, then balance.",
+      "final": "Freestanding handstand, 3 holds of 10 seconds",
+      "safety": "Practise on a mat or carpet with clear space, and come down the way you went up. Skip any step that hurts your wrists or neck.",
+      "warmup": [
+        {
+          "name": "Wrist circles and rocks",
+          "how": "10 circles each way, then gently rock forward and back over your hands."
+        },
+        {
+          "name": "Arm circles",
+          "how": "30 seconds forward, 30 seconds back."
+        }
+      ],
+      "steps": [
+        {
+          "id": "plank",
+          "name": "Plank hold",
+          "kind": "hold",
+          "sets": 3,
+          "target": 30,
+          "library": "Plank",
+          "how": "Hands under shoulders, body in one line. This is the shape you will hold upside down."
+        },
+        {
+          "id": "pike",
+          "name": "Pike hold",
+          "kind": "hold",
+          "sets": 3,
+          "target": 20,
+          "library": "Pike Push-Up",
+          "how": "Hands and feet on the floor, hips high like an upside-down V, head between your arms. Push the floor away."
+        },
+        {
+          "id": "chest",
+          "name": "Chest-to-wall hold",
+          "kind": "hold",
+          "sets": 3,
+          "target": 20,
+          "library": "Handstand Push-Ups",
+          "how": "Facing the wall, walk your feet up it until your chest is close to the wall. Hold, then walk back down."
+        },
+        {
+          "id": "back",
+          "name": "Back-to-wall kick-up hold",
+          "kind": "hold",
+          "sets": 3,
+          "target": 15,
+          "library": "Handstand Push-Ups",
+          "how": "Facing away from the wall, place your hands a short distance from it and kick up gently until your heels touch. Squeeze your body tight and hold."
+        },
+        {
+          "id": "free",
+          "name": "Freestanding handstand",
+          "kind": "hold",
+          "sets": 3,
+          "target": 10,
+          "library": "Handstand Push-Ups",
+          "how": "Kick up near a wall, then try to balance with your heels off it. Spread your fingers and make tiny corrections with your hands."
+        }
+      ]
+    },
+    {
+      "id": "toes",
+      "title": "Touch your toes",
+      "blurb": "Gentle, steady flexibility work for your hamstrings and back.",
+      "final": "Palms flat on the floor in a forward fold",
+      "safety": "Never bounce. Ease off if you feel sharp pain or tingling. A gentle stretch is the goal.",
+      "warmup": [
+        {
+          "name": "Cat-cow",
+          "how": "10 slow rounds on your hands and knees, arching and rounding your back."
+        },
+        {
+          "name": "Hamstring wake-up",
+          "how": "Standing, one heel forward with toes up. Hinge slightly from the hips for 20 seconds each leg."
+        }
+      ],
+      "steps": [
+        {
+          "id": "bent",
+          "name": "Bent-knee forward fold",
+          "kind": "hold",
+          "sets": 3,
+          "target": 30,
+          "library": "Standing Toe Touches",
+          "how": "Feet hip-width apart, soften your knees and fold from the hips. Let your arms and head hang heavy."
+        },
+        {
+          "id": "shins",
+          "name": "Forward fold, hands on shins",
+          "kind": "hold",
+          "sets": 3,
+          "target": 30,
+          "library": "Standing Toe Touches",
+          "how": "Straighten your legs as far as is comfortable and rest your hands on your shins."
+        },
+        {
+          "id": "ankles",
+          "name": "Forward fold, hands to ankles",
+          "kind": "hold",
+          "sets": 3,
+          "target": 30,
+          "library": "Standing Toe Touches",
+          "how": "Walk your hands down to your ankles or toes with a long spine, folding from the hips."
+        },
+        {
+          "id": "floor",
+          "name": "Forward fold, palms to the floor",
+          "kind": "hold",
+          "sets": 3,
+          "target": 30,
+          "library": "Standing Toe Touches",
+          "how": "Bring your palms toward the floor, keeping your legs as straight as you can."
+        }
+      ]
+    },
+    {
+      "id": "splits",
+      "title": "Front splits",
+      "blurb": "Hip flexor and hamstring work, then a little closer to the floor each week.",
+      "final": "A full front split, held 30 seconds per side",
+      "safety": "Ease into mild tension, never sharp pain. Go slowly, breathe, and warm up first. Not medical advice.",
+      "research": [
+        "stretch-hold",
+        "stretch-weekly"
+      ],
+      "warmup": [
+        {
+          "name": "Leg swings",
+          "how": "Hold a wall. 10 swings forward and back, each leg."
+        },
+        {
+          "name": "Walking lunges",
+          "how": "10 slow steps, sinking gently into each one."
+        },
+        {
+          "name": "Hip circles",
+          "how": "Hands on hips, 10 slow circles each way."
+        }
+      ],
+      "drills": [
+        {
+          "id": "hipflexor",
+          "name": "Kneeling hip flexor stretch",
+          "kind": "hold",
+          "sets": 2,
+          "target": 30,
+          "per_side": true,
+          "library": "Kneeling Hip Flexor",
+          "how": "Kneel on one knee, other foot in front. Tuck your hips under and shift forward until you feel the front of the back hip."
+        },
+        {
+          "id": "hamstring",
+          "name": "Seated hamstring stretch",
+          "kind": "hold",
+          "sets": 2,
+          "target": 30,
+          "per_side": false,
+          "library": "Seated Floor Hamstring Stretch",
+          "how": "Sit tall with legs straight. Hinge forward from the hips with a long back, not a rounded one."
+        },
+        {
+          "id": "quad",
+          "name": "Hip flexor and quad stretch",
+          "kind": "hold",
+          "sets": 2,
+          "target": 30,
+          "per_side": true,
+          "library": "Intermediate Hip Flexor and Quad Stretch",
+          "how": "From a low lunge, reach back for your back foot and draw it gently toward you."
+        }
+      ],
+      "steps": [
+        {
+          "id": "lowlunge",
+          "name": "Low lunge",
+          "kind": "hold",
+          "sets": 3,
+          "target": 30,
+          "per_side": true,
+          "library": "Kneeling Hip Flexor",
+          "how": "Back knee down, front knee over the ankle, hips square. Sink forward gently."
+        },
+        {
+          "id": "halfsplit",
+          "name": "Half split",
+          "kind": "hold",
+          "sets": 3,
+          "target": 30,
+          "per_side": true,
+          "library": "Seated Floor Hamstring Stretch",
+          "how": "From a low lunge, sit back onto the back heel and straighten the front leg. Fold forward with a long back."
+        },
+        {
+          "id": "blocks",
+          "name": "Split on blocks",
+          "kind": "hold",
+          "sets": 3,
+          "target": 30,
+          "per_side": true,
+          "library": "Runner's Stretch",
+          "how": "Slide the front heel forward with hands on two blocks or stacked books. Stop where you can still breathe easily."
+        },
+        {
+          "id": "handsdown",
+          "name": "Split, hands down",
+          "kind": "hold",
+          "sets": 3,
+          "target": 20,
+          "per_side": true,
+          "library": null,
+          "how": "Lower until your hands rest on the floor. Keep the back knee pointing down, not out."
+        },
+        {
+          "id": "full",
+          "name": "Full front split",
+          "kind": "hold",
+          "sets": 3,
+          "target": 30,
+          "per_side": true,
+          "library": null,
+          "how": "Both legs straight, hips square, sitting all the way down. Use a cushion under the hip until you get there."
+        }
+      ]
+    }
+  ]
+}

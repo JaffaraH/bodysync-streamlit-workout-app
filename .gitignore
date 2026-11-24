@@ -1,21 +1,24 @@
-# Ignore config.py
-config.py
+# Secrets
+.env
 
-# Ignore all JSON files
-*.json
+# Local data (SQLite DB, downloaded exercise database and images)
+data/
 
-# Ignore unnecessary system files 
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
 .DS_Store
 Thumbs.db
 
-# Ignore environment variable files 
-.env
+# Downloaded exercise photos and animations (rebuilt automatically)
+static/exercises/
 
-# Ignore sensitive files
-config.py
-*.json
+# Local Streamlit secrets (Google sign-in keys etc.). Never commit.
+.streamlit/secrets.toml
 
-# Ignore build and deployment files
-cloudbuild.yaml
-Dockerfile.txt
-
+# session handoff notes (not for the repo)
+HANDOFF_PROMPT.md
