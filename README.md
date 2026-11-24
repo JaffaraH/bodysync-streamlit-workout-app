@@ -35,8 +35,8 @@ follow it set by set, and see your progress add up. Every tip in the app is back
 You need Python 3.10 or newer.
 
 ```bash
-git clone https://github.com/JaffaraH/bodysync-streamlit-workout-app.git
-cd bodysync-streamlit-workout-app
+git clone https://github.com/JaffaraH/bodysync-workout-app.git
+cd bodysync-workout-app
 python3 -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
